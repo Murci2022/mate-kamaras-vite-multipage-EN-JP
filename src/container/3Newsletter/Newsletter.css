@@ -1,0 +1,16 @@
+.newsletter__bg {
+  position: relative;
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  min-height: calc(100vh + 100px);
+}
+
+.newsletter_height {
+  position: absolute;
+  top: 30%;
+  width: 500px; /* Adjust the width as needed */
+  height: 500px; /* Adjust the height as needed */
+  border: none; /* Remove iframe border */
+}

@@ -2,16 +2,18 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import Navbar from './components/Navbar/Navbar';
-/* import Hero from './container/1Hero/Hero'; */
+import Hero from './container/1Hero/Hero';
+import About from './container/2About/About';
 import { useTranslation } from 'react-i18next';
 import './i18n';
+import Newsletter from './container/3Newsletter/Newsletter';
 
 function App() {
   const { t } = useTranslation();
   return (
     <div className='app__container'>
       <Navbar />
-      {/* <Routes>
+      <Routes>
         <Route
           index
           element={<Hero />}
@@ -20,7 +22,15 @@ function App() {
           path='/hero'
           element={<Hero />}
         />
-      </Routes> */}
+        <Route
+          path='/about'
+          element={<About />}
+        />
+        <Route
+          path='/newsletter'
+          element={<Newsletter />}
+        />
+      </Routes>
       {/* <Footer /> */}
     </div>
   );

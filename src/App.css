@@ -1,14 +1,11 @@
-.border {
-  border: 1px solid red;
-}
-
 .app__container {
   position: relative;
   margin: 0 auto; /* Center the container horizontally */
   max-width: 1500px; /* Set the maximum width */
   min-width: 280px;
-  background-color: var(--color-crimson);
-  /* min-height: calc(100vh - 100px); */ /* Subtract navbar height from 100vh */
+  /* min-height: calc(
+    100vh - 100px
+  ); */ /*  */ /* Subtract navbar height from 100vh */
 }
 
 .text__center {

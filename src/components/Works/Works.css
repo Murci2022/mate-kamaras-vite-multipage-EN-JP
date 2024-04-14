@@ -1,0 +1,31 @@
+.shop_item_article {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop_item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop_item-name {
+  flex: 1;
+}
+/* this is a note for me to remember that if i want to get out of the situation then i need to work on my skills as a programmer. Is it make sence to learn programming or is it too late? Who knows but I can not give up. */
+
+.shop_item-sub {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+/* note */
+
+.shop_item-dash {
+  width: 90px;
+  height: 1px;
+  background: var(--color-golden);
+  margin: 0 1rem;
+}

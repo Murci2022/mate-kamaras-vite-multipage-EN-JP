@@ -18,21 +18,20 @@ const Navbar = () => {
 
   return (
     <nav className='navbar'>
-      <div className='navbar-logo-holder'>
-        <div className='footer__icons-wrapper'>
-          <div className='footer__icons'>
-            <a href='https://www.facebook.com'>
-              <FaFacebook />
-            </a>
-            <a href='https://www.tiktok.com'>
-              <FaTiktok />
-            </a>
-            <a href='https://www.instagram.com'>
-              <FaInstagram />
-            </a>
-          </div>
+      <div className='footer__icons-wrapper'>
+        <div className='footer__icons'>
+          <a href='https://www.facebook.com'>
+            <FaFacebook />
+          </a>
+          <a href='https://www.tiktok.com'>
+            <FaTiktok />
+          </a>
+          <a href='https://www.instagram.com'>
+            <FaInstagram />
+          </a>
         </div>
       </div>
+
       <ul className='navbar-links'>
         <li className='p__opensans'>
           <a href='/'>{t('nav.home')}</a>
