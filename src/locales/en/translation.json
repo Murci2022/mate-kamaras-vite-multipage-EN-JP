@@ -1,0 +1,20 @@
+{
+    "nav": {
+      "home": "home",
+      "about": "about",
+      "shop": "shop",
+      "contact": "Contact",
+      "newsletter": "newsletter",
+      "paintings": "paintings"
+    },
+    "hero": {
+      "subhead": "Singer/Painter",
+      "name": "Matè",
+      "fname": "Kamaras",
+      "desc": " Dedicated to bringing stories to life through the power of music and story telling. With a blend of dedication, creativity, he strives to captivate the audiences and leave a lasting impression.",
+      "news": "news"
+    },
+    "newsletter": {
+      "lng": "en"
+    }
+  }

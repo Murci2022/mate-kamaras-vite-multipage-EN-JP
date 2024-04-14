@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-base: 'Cormorant Upright', serif;
+  --font-alt: 'Open Sans', sans-serif;
+
+  --color-golden: #dcca87;
+  --color-black2: #0c0c0c;
+  --color-black1: #1e1e1e;
+  --color-black: #746f63;
+  --color-gray: #454444;
+  --color-crimson: #f5efdb;
+  --color-grey: #aaaaaa;
+  --color-white: #ffffff;
+  --color-red: rgb(255, 0, 0);
+}
+body {
+  background-color: var(--color-black2);
+  color: var(--color-white);
+}
+
+* {
+  background-color: var(--color-black);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+label {
+  /* display: block; */
+  cursor: pointer;
+
+  color: var(--color-white);
+  font-size: small;
+  margin-left: 5px;
+  border: 0.5px white solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+header {
+  position: absolute;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
