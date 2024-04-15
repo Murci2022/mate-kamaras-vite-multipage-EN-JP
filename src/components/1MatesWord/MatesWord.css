@@ -52,8 +52,9 @@
   align-items: flex-start;
 }
 
-.matesword-toggle {
-  display: block;
+.matesword-img_holder {
+  display: flex;
+  justify-content: center;
 }
 
 .matesword-content_quote img {
@@ -83,6 +84,11 @@
 }
 
 @media screen and (max-width: 2000px) {
+  .matesword-sign img {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 1150px) {
   .matesword-sign img {
     width: 370px;
   }

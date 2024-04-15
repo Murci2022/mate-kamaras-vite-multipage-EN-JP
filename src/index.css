@@ -49,6 +49,11 @@ label {
   padding: 5px;
 }
 
+.max-width  {
+  width: 300px;
+  height: auto;
+}
+
 header {
   position: absolute;
 }
