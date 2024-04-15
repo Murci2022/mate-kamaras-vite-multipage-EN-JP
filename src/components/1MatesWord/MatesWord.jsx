@@ -14,7 +14,7 @@ const MatesWord = () => {
       <div></div>
 
       <div className='matesword-img_holder  '>
-        <figure className='app__wrapper_img  app__wrapper_img-reverse shadow'>
+        <figure className='app__wrapper_img max-width app__wrapper_img-reverse shadow'>
           <img
             src={images.matemask}
             alt="Mate Kamaras's portre with a carnival mask"
