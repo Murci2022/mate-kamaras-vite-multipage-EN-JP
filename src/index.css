@@ -5,6 +5,7 @@
   --font-alt: 'Open Sans', sans-serif;
 
   --color-golden: #dcca87;
+  --color-golden-active: #cfbc7d;
   --color-black2: #0c0c0c;
   --color-black1: #1e1e1e;
   --color-black: #746f63;
@@ -46,6 +47,10 @@ header {
 a {
   color: unset;
   text-decoration: none;
+}
+
+hr {
+  color: var(--color-golden);
 }
 
 .slide-bottom {

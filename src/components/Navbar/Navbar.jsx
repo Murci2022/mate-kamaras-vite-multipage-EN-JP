@@ -20,13 +20,13 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='footer__icons-wrapper'>
         <div className='footer__icons'>
-          <a href='https://www.facebook.com'>
+          <a href='#'>
             <FaFacebook />
           </a>
-          <a href='https://www.tiktok.com'>
+          <a href='#'>
             <FaTiktok />
           </a>
-          <a href='https://www.instagram.com'>
+          <a href='#'>
             <FaInstagram />
           </a>
         </div>
@@ -75,19 +75,21 @@ const Navbar = () => {
             />
             <ul className='navbar-smallscreen-links'>
               <li className='p__opensans'>
-                <a
-                  href='/'
-                  onClick={() => setToggleMenu(false)}
-                >
-                  {t('nav.home')}
-                </a>
+                <a href='/'>{t('nav.home')}</a>
+              </li>
+              <li className='p__opensans'>
+                <a href='/about'>{t('nav.about')}</a>
+              </li>
+              <li className='p__opensans'>
+                <a href='/newsletter'>{t('nav.newsletter')}</a>
               </li>
               <li className='p__opensans'>
                 <a
-                  href='/about'
-                  onClick={() => setToggleMenu(false)}
+                  href='https://www.matekamaras.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
-                  {t('nav.about')}
+                  {t('nav.paintings')}
                 </a>
               </li>
             </ul>

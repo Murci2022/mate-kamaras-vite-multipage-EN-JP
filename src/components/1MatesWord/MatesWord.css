@@ -1,0 +1,77 @@
+#ch {
+  display: none;
+}
+
+#ch:checked ~ .matesword_longcontent {
+  display: block;
+}
+
+#ch:checked ~ label {
+  display: none;
+}
+
+.matesword_longcontent {
+  display: none;
+  margin-top: 15px;
+}
+
+.matesword-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.matesword-content_quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.matesword-content_quote img {
+  width: 47px;
+  height: 40px;
+  margin: 0 1rem 1rem 0;
+}
+
+.matesword-sign {
+  width: 40%;
+  margin-top: 3rem;
+}
+.matesword-sign img {
+  max-width: 100%; /* Set the maximum width to fill the container */
+  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+}
+
+.matesword-content-sign p:nth-child(2) {
+  border: 4px solid red;
+  font-family: var(--font-base);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+
+@media screen and (max-width: 2000px) {
+  .matesword-sign img {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .matesword-content_quote {
+    display: block;
+  }
+}
+@media screen and (max-width: 450px) {
+  .matesword-sign img {
+    width: 60%;
+  }
+  .section__padding {
+    padding: 0;
+  }
+  .matesword-content {
+    padding: 1rem;
+  }
+}

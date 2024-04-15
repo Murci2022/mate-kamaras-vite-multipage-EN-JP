@@ -2,6 +2,14 @@
 
 Mate Kamaras - vite - multypage - with routing/translation
 
+## Benchmarkemail accounts
+
+Matheos(matheos.k.yamaguchi@gmail.com) google account (English newsletter)
+https://ui.benchmarkemail.com/signupform/fullembed/design?s=1758458
+
+Mate(matekamaras1976@gmail.com) google account (Japanese newsletter)
+https://ui.benchmarkemail.com/signupform/fullembed/design?s=1758457
+
 https://reactrouter.com/en/main/start/overview
 
 - mkdir <project-name>

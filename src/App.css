@@ -8,6 +8,14 @@
   ); */ /*  */ /* Subtract navbar height from 100vh */
 }
 
+.app__border {
+  border: 1px solid red;
+}
+
+.app__shadow04 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
 .text__center {
   text-align: center;
 }
@@ -69,17 +77,24 @@
 
 .custom__button {
   background-color: var(--color-crimson);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   color: var(--color-black);
   font-family: var(--font-base);
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 28px;
   font-size: 16px;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 3rem;
   border-radius: 1px;
   border: none;
   outline: none;
   cursor: pointer;
+}
+.custom__button:hover {
+  background-color: var(--color-golden);
+}
+.custom__button:active {
+  background-color: var(--color-golden-active);
 }
 
 .p__cormorant {
