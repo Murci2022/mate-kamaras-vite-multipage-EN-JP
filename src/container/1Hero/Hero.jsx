@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { images } from '../../constants';
 import SubHeading from '../../components/SubHeading/SubHeading';
 import MatesWord from '../../components/1MatesWord/MatesWord';
+import Awards from '../../components/1Awards/Awards';
 
 import './Hero.css';
 
@@ -48,6 +49,7 @@ const Header = () => {
       </section>
 
       <MatesWord />
+      <Awards />
     </>
   );
 };
