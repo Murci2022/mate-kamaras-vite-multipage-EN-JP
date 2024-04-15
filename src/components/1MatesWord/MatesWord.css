@@ -11,8 +11,32 @@
 }
 
 .matesword_longcontent {
-  display: none;
   margin-top: 15px;
+  position: relative; /* Ensure relative positioning for pseudo-elements */
+}
+.matesword_longcontent-scroll {
+  max-height: 150px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.matesword_longcontent::before,
+.matesword_longcontent::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10px; /* Adjust the width of the shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+.matesword_longcontent::before {
+  left: 0;
+}
+
+.matesword_longcontent::after {
+  right: 0;
 }
 
 .matesword-content {
@@ -26,6 +50,10 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.matesword-toggle {
+  display: block;
 }
 
 .matesword-content_quote img {
@@ -59,11 +87,11 @@
     width: 370px;
   }
 }
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
   .matesword-content_quote {
     display: block;
   }
-}
+} */
 @media screen and (max-width: 450px) {
   .matesword-sign img {
     width: 60%;

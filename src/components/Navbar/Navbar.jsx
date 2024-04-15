@@ -1,20 +1,28 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { GiCancel, GiHamburgerMenu } from 'react-icons/gi';
 import { FaFacebook, FaTiktok, FaInstagram } from 'react-icons/fa';
-
 import LanguageSelector from './LanguageSelector'; // Importing the LanguageSelector component
-
 import './Navbar.css';
-import { useState } from 'react';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [activeState, setActiveState] = useState('this is default');
+
+  const url = new URL(window.location.href);
+  const path = url.pathname; // Gets the pathname, e.g., "/about"
+  const lastPart = path.substring(path.lastIndexOf('/')); // Extracts the last part after the last "/"
+  console.log(lastPart, 'lastPart'); // Outputs "about"
 
   const handleLanguageChange = (lang) => {
     console.log(lang, 'lang');
     i18n.changeLanguage(lang);
   };
+
+  const handleLinkClick = () => {};
+
+  console.log(activeState, 'activeState');
 
   return (
     <nav className='navbar'>
@@ -33,14 +41,40 @@ const Navbar = () => {
       </div>
 
       <ul className='navbar-links'>
-        <li className='p__opensans'>
-          <a href='/'>{t('nav.home')}</a>
+        <li className='p__opensans '>
+          <a
+            href='/'
+            className={
+              lastPart === '/' || lastPart === '/home' ? 'nav-links-active' : ''
+            }
+          >
+            {t('nav.home')}
+          </a>
         </li>
         <li className='p__opensans'>
-          <a href='/about'>{t('nav.about')}</a>
+          <a
+            href='/about'
+            onClick={() => handleLinkClick('/about')}
+            className={lastPart === '/about' ? 'nav-links-active' : ''}
+          >
+            {t('nav.about')}
+          </a>
         </li>
         <li className='p__opensans'>
-          <a href='/newsletter'>{t('nav.newsletter')}</a>
+          <a
+            href='/newsletter'
+            className={lastPart === '/newsletter' ? 'nav-links-active' : ''}
+          >
+            {t('nav.newsletter')}
+          </a>
+        </li>
+        <li className='p__opensans'>
+          <a
+            href='/newsletter'
+            className={lastPart === '/newsletter' ? 'nav-links-active' : ''}
+          >
+            {t('nav.newsletter')}
+          </a>
         </li>
         <li className='p__opensans'>
           <a

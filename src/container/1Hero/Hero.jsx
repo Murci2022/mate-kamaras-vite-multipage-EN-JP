@@ -46,7 +46,7 @@ const Header = () => {
           />
         </figure>
       </section>
-      <hr style={{ colror: 'red' }} />
+
       <MatesWord />
     </>
   );

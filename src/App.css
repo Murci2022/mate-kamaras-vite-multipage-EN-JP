@@ -12,6 +12,7 @@
   border: 1px solid red;
 }
 
+
 .app__shadow04 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
@@ -51,7 +52,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-right: 40px;
+  padding: 1rem;
 }
 
 .app__wrapper_img {
@@ -65,7 +66,7 @@
 
 .app__wrapper_img-reverse {
   justify-content: flex-start;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .app__golden {
@@ -177,15 +178,15 @@
 
 @media screen and (min-width: 1151px) {
   .app__wrapper_img img {
-    margin: 5rem 0 0 0;
+    margin: 0rem 0 0 0;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 1150px) {
-  .app__wrapper_info {
+  /* .app__wrapper_info {
     padding-right: 0px;
-  }
+  } */
   .app__wrapper {
     flex-direction: column;
   }
@@ -207,7 +208,7 @@
     padding: 1rem;
   }
   .app__wrapper_img img {
-    margin: 4rem 0 0 0;
+    /* margin: 4rem 0 0 0; */
     width: 100%;
   }
 }
