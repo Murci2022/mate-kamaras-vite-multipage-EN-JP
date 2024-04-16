@@ -10,7 +10,7 @@ const MatesWord = () => {
     console.log(isShown, 'button clicked');
   };
   return (
-    <section className='app__bg app__wrapper section__padding'>
+    <section className='app__bg app__wrapper section__padding app__reverse'>
       <div></div>
 
       <div className='matesword-img_holder  '>
@@ -38,10 +38,6 @@ const MatesWord = () => {
           </div>
 
           <div className='matesword-card'>
-            <input
-              type='checkbox'
-              id='ch'
-            />
             <div className='matesword_longcontent'>
               <div className='matesword_longcontent-scroll'>
                 <p className='p__opensans-grey'>
