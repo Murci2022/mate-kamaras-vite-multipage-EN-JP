@@ -10,3 +10,10 @@ for css code:
 ```css
 <YourJSXCodeGoesHere />
 ```
+
+## icon download
+
+jp flag attribute:
+<a href="https://www.flaticon.com/free-icons/japanese" title="japanese icons">Japanese icons created by GeekClick - Flaticon</a>
+
+

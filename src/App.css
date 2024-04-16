@@ -77,9 +77,10 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: var(--color-black);
+  width: 200px;
+  background-color: var(--color-black);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  color: var(--color-golden);
   font-family: var(--font-base);
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -92,10 +93,13 @@
   cursor: pointer;
 }
 .custom__button:hover {
-  background-color: var(--color-golden);
+  color: var(--color-white);
+  font-size: 19px;
 }
 .custom__button:active {
-  background-color: var(--color-golden-active);
+  color: var(--color-golden-active);
+  font-size: 22px;
+  box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.4);
 }
 
 .p__cormorant {
@@ -112,11 +116,11 @@
   font-family: var(--font-base);
   color: var(--color-golden);
   font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
-  font-size: 23px;
+  font-size: 16px;
 }
 .p__cormorant-gold:hover {
   border-bottom: 1px solid var(--color-golden);

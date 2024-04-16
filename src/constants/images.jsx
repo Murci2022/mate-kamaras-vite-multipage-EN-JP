@@ -28,8 +28,12 @@ import pos15 from '../assets/pos15.png';
 import pos16 from '../assets/pos16.png';
 import pos17 from '../assets/pos17.png';
 import pos18 from '../assets/pos18.png';
+import en from '../assets/en.png';
+import jp from '../assets/jp.png';
 
 export default {
+  en,
+  jp,
   pos00,
   pos01,
   pos01b,

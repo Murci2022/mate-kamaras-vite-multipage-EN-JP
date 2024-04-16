@@ -10,6 +10,10 @@
   display: none;
 }
 
+.matesword__margin-top {
+  margin-top: 80px;
+}
+
 .matesword_longcontent {
   margin-top: 15px;
   position: relative; /* Ensure relative positioning for pseudo-elements */
