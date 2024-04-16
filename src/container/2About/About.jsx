@@ -1,7 +1,7 @@
 import SubHeading from '../../components/SubHeading/SubHeading';
-import Works from '../../components/Works/Works';
+import Works from '../../components/2Works/Works';
 
-import { images, data } from '../../constants';
+import { data } from '../../constants';
 
 import './About.css';
 
@@ -31,7 +31,8 @@ const About = () => (
         </div>
       </div>
     </article>
-    <div style={{ marginTop: '15px' }}></div>
+
+    {/* <div style={{ marginTop: '15px' }}></div> */}
   </section>
 );
 

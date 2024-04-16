@@ -57,7 +57,7 @@
 
 .app__wrapper_img {
   flex: 1;
-  max-width: 80%;
+  /* max-width: 80%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,6 +189,12 @@
   } */
   .app__wrapper {
     flex-direction: column;
+  }
+
+  /* HERE COMES THE CLASSES */
+
+  .app__reverse {
+    flex-direction: column-reverse;
   }
 
   .app__wrapper_img-reverse {

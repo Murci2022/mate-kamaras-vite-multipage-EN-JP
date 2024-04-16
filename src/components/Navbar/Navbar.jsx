@@ -70,10 +70,11 @@ const Navbar = () => {
         </li>
         <li className='p__opensans'>
           <a
-            href='/newsletter'
-            className={lastPart === '/newsletter' ? 'nav-links-active' : ''}
+            href='https://www.thalia.de/shop/home/artikeldetails/A1060427891?ProvID=11000533&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3bdxXq_HLusx1XHNKRq8UGIVJOuT9n5WAQxkKwodiqYgy4s4dsJmRoCvd0QAvD_BwE'
+            target='_blank'
+            rel='noopener noreferrer'
           >
-            {t('nav.newsletter')}
+            {t('nav.shop')}
           </a>
         </li>
         <li className='p__opensans'>
