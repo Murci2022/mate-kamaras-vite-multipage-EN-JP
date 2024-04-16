@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 
-const LanguageSelector = ({ onChange }) => {
+const LanguageSelector = ({ selectedLanguage, onChange }) => {
+  console.log(selectedLanguage);
   const handleLanguageChange = (e) => {
     console.log(e.target.value, 'language');
     const selectedLanguage = e.target.value;
@@ -8,7 +9,10 @@ const LanguageSelector = ({ onChange }) => {
   };
 
   return (
-    <select onChange={handleLanguageChange}>
+    <select
+      onChange={handleLanguageChange}
+      defaultValue={selectedLanguage}
+    >
       <option value='en'>ENGLISH</option>
       {/* <option value="de">GERMAN</option> */}
       <option value='jp'>日本語</option>

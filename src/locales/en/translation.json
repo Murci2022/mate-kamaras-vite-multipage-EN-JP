@@ -1,22 +1,26 @@
 {
   "nav": {
-    "home": "home",
-    "about": "about",
-    "shop": "shop",
+    "home": "HOME",
+    "about": "About",
+    "shop": "Shop",
     "contact": "Contact",
-    "newsletter": "newsletter(EN)",
+    "newsletter": "Newsletter(EN)",
     "news": "news",
     "bonus": "bonus",
-    "paintings": "paintings"
+    "paintings": "paintings",
+    "blog": "blog"
   },
   "hero": {
-    "subhead": "Singer/Actor/Painter",
+    "subhead": "Singer / Painter",
     "name": "Matè",
     "fname": "Kamaras",
     "desc": " Dedicated to bringing stories to life through the power of music and story telling. With a blend of dedication, creativity, he strives to captivate the audiences and leave a lasting impression.",
-    "news": "news"
+    "news": "what is new?"
   },
   "newsletter": {
     "lng": "en"
+  },
+  "footer": {
+    "contact": "contact"
   }
 }

@@ -1,6 +1,6 @@
 .hero__bg {
   background-color: var(--color-black);
-  min-height: 100vh;
+  min-height: calc(100vh-20px);
 }
 
 .hero-h1 {
@@ -8,8 +8,8 @@
   color: var(--color-golden);
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  line-height: 117px;
-  font-size: 90px;
+  line-height: 100px;
+  font-size: 80px;
 }
 .hero-p {
   font-family: var(--font-base);
@@ -20,6 +20,17 @@
   font-size: 14px;
 }
 
+@media screen and (max-width: 1150px) {
+  /*  .hero__bg {
+    margin-top: 100px;
+  } */
+}
+@media screen and (min-width: 1150px) {
+  .hero__max-width {
+    max-width: 550px;
+    height: auto;
+  }
+}
 @media screen and (max-width: 650px) {
   .hero-h1 {
     font-size: 75px;

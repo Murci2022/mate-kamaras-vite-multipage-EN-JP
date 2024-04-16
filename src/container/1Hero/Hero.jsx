@@ -9,10 +9,9 @@ import './Hero.css';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
-  console.log(t, 't');
-  console.log(i18n, 'i18n');
   return (
     <>
+      <div style={{ height: '100px' }}></div>
       <section
         className='hero__bg app__wrapper margin-top section__padding'
         id='home'
@@ -40,7 +39,7 @@ const Header = () => {
             {t('hero.news')}
           </button>
         </article>
-        <figure className='app__wrapper_img'>
+        <figure className='app__wrapper_img hero__max-width'>
           <img
             src={images.mate_hero}
             alt='hero img'

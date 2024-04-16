@@ -8,12 +8,15 @@ import './Navbar.css';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [toggleMenu, setToggleMenu] = useState(false);
-  const [activeState, setActiveState] = useState('this is default');
+  const [activeLanguage, setActiveLanguage] = useState('this is default');
 
   const url = new URL(window.location.href);
   const path = url.pathname; // Gets the pathname, e.g., "/about"
   const lastPart = path.substring(path.lastIndexOf('/')); // Extracts the last part after the last "/"
-  console.log(lastPart, 'lastPart'); // Outputs "about"
+  console.log(lastPart, 'lastPart');
+  console.log(i18n.language, '????');
+  const selectedLanguage = i18n.language;
+  console.log(selectedLanguage);
 
   const handleLanguageChange = (lang) => {
     console.log(lang, 'lang');
@@ -22,12 +25,10 @@ const Navbar = () => {
 
   const handleLinkClick = () => {};
 
-  console.log(activeState, 'activeState');
-
   return (
     <nav className='navbar'>
-      <div className='footer__icons-wrapper'>
-        <div className='footer__icons'>
+      <div className='nav__icons-wrapper'>
+        <div className='nav__icons'>
           <a href='#'>
             <FaFacebook />
           </a>
@@ -41,7 +42,7 @@ const Navbar = () => {
       </div>
 
       <ul className='navbar-links'>
-        <li className='p__opensans '>
+        <li className='p__cormorant-gold '>
           <a
             href='/'
             className={
@@ -51,7 +52,7 @@ const Navbar = () => {
             {t('nav.home')}
           </a>
         </li>
-        <li className='p__opensans'>
+        <li className='p__cormorant-gold'>
           <a
             href='/about'
             onClick={() => handleLinkClick('/about')}
@@ -60,7 +61,7 @@ const Navbar = () => {
             {t('nav.about')}
           </a>
         </li>
-        <li className='p__opensans'>
+        <li className='p__cormorant-gold'>
           <a
             href='/newsletter'
             className={lastPart === '/newsletter' ? 'nav-links-active' : ''}
@@ -68,16 +69,17 @@ const Navbar = () => {
             {t('nav.newsletter')}
           </a>
         </li>
-        <li className='p__opensans'>
+        <li className='p__cormorant-gold'>
           <a
             href='https://www.thalia.de/shop/home/artikeldetails/A1060427891?ProvID=11000533&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3bdxXq_HLusx1XHNKRq8UGIVJOuT9n5WAQxkKwodiqYgy4s4dsJmRoCvd0QAvD_BwE'
             target='_blank'
             rel='noopener noreferrer'
+            className={lastPart === '/newsletter' ? 'nav-links-active' : ''}
           >
             {t('nav.shop')}
           </a>
         </li>
-        <li className='p__opensans'>
+        <li className='p__cormorant-gold'>
           <a
             href='https://www.matekamaras.com/'
             target='_blank'
@@ -86,11 +88,22 @@ const Navbar = () => {
             {t('nav.paintings')}
           </a>
         </li>
+        <li className='p__cormorant-gold'>
+          <a
+            href='/newsletter'
+            className={lastPart === '/newsletter' ? 'nav-links-active' : ''}
+          >
+            {t('nav.blog')}
+          </a>
+        </li>
       </ul>
 
       {/* Integrate the LanguageSelector component */}
       <div className='navbar-language-selector'>
-        <LanguageSelector onChange={handleLanguageChange} />
+        <LanguageSelector
+          onChange={handleLanguageChange}
+          selectedLanguage={selectedLanguage}
+        />
       </div>
 
       {/* Hamburger menu for small screens */}

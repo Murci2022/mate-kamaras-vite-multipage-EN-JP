@@ -7,10 +7,11 @@
     "newsletter": "newsletter(JP)",
     "news": "news",
     "bonus": "bonus",
-    "paintings": "paintings"
+    "paintings": "paintings",
+    "blog": "blog"
   },
   "hero": {
-    "subhead": "singer/actor/painter",
+    "subhead": "singer / painter",
     "name": "Mate ",
     "fname": "Kamaras",
     "desc": "音楽と物語の力を通じて物語を生き生きとさせることに専念しています。献身、創造性、そして彼は観客を魅了し、強烈な印象を残すことを目指しています。",
@@ -18,5 +19,8 @@
   },
   "newsletter": {
     "lng": "jp"
+  },
+  "footer": {
+    "contact": "お問い合わせ"
   }
 }

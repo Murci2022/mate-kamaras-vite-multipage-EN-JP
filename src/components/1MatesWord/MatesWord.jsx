@@ -10,7 +10,7 @@ const MatesWord = () => {
     console.log(isShown, 'button clicked');
   };
   return (
-    <section className='app__bg app__wrapper section__padding app__reverse'>
+    <section className='app__bg app__wrapper section__padding app__reverse matesword__margin-top'>
       <div></div>
 
       <div className='matesword-img_holder  '>

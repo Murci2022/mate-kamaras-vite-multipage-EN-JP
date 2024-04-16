@@ -36,9 +36,15 @@ project/
 │ │ └── Navbar.jsx
 │ ├── Subheading/
 │ │ └── SubHeading.jsx
+│ ├── Footer/
+│ │ └── Footer.jsx
+│ ├── 01MatesWord/
+│ │ └── MatesWord.jsx(components in 01Hero page)
+│ ├── 01/Awards
+│ │ └── Awards.jsx(components in 01Hero page)
 │ └── ...
 ├── constants/
-│ ├── data.js
+│ ├── data.js (all arrays with data to render)
 | ├── images/(collect images)
 │ └── index.jsx(export: images,data,video)
 ├── container/
