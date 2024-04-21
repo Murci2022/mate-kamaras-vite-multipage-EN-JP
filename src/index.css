@@ -21,19 +21,16 @@
   --color-red: rgb(255, 0, 0);
 }
 body {
-  background-color: var(--color-black2);
+  background-color: var(--color-black);
   color: var(--color-white);
 }
 
 * {
-  background-color: var(--color-black);
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
 }
-
-
 
 .shadow {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -95,7 +92,3 @@ hr {
     transform: translateY(0);
   }
 }
-
-
-
-
