@@ -70,31 +70,12 @@ const Navbar = () => {
           </a>
         </li>
         <li className='p__cormorant-gold'>
-          <a
-            href='https://www.thalia.de/shop/home/artikeldetails/A1060427891?ProvID=11000533&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3bdxXq_HLusx1XHNKRq8UGIVJOuT9n5WAQxkKwodiqYgy4s4dsJmRoCvd0QAvD_BwE'
-            target='_blank'
-            rel='noopener noreferrer'
-            className={lastPart === '/newsletter' ? 'nav-links-active' : ''}
-          >
+          <a href='https://www.thalia.de/shop/home/artikeldetails/A1060427891?ProvID=11000533&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3bdxXq_HLusx1XHNKRq8UGIVJOuT9n5WAQxkKwodiqYgy4s4dsJmRoCvd0QAvD_BwE'>
             {t('nav.shop')}
           </a>
         </li>
         <li className='p__cormorant-gold'>
-          <a
-            href='https://www.matekamaras.com/'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {t('nav.paintings')}
-          </a>
-        </li>
-        <li className='p__cormorant-gold'>
-          <a
-            href='/newsletter'
-            className={lastPart === '/newsletter' ? 'nav-links-active' : ''}
-          >
-            {t('nav.blog')}
-          </a>
+          <a href='https://www.matekamaras.com/'>{t('nav.paintings')}</a>
         </li>
       </ul>
 
@@ -119,26 +100,47 @@ const Navbar = () => {
             <GiCancel
               fontSize={12}
               onClick={() => setToggleMenu(false)}
-              className='overlay__close'
+              className='nav__overlay-close'
             />
             <ul className='navbar-smallscreen-links'>
-              <li className='p__opensans'>
-                <a href='/'>{t('nav.home')}</a>
-              </li>
-              <li className='p__opensans'>
-                <a href='/about'>{t('nav.about')}</a>
-              </li>
-              <li className='p__opensans'>
-                <a href='/newsletter'>{t('nav.newsletter')}</a>
-              </li>
-              <li className='p__opensans'>
+              <li className='p__cormorant-gold '>
                 <a
-                  href='https://www.matekamaras.com/'
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  href='/'
+                  className={
+                    lastPart === '/' || lastPart === '/home'
+                      ? 'nav-links-active'
+                      : ''
+                  }
                 >
-                  {t('nav.paintings')}
+                  {t('nav.home')}
                 </a>
+              </li>
+              <li className='p__cormorant-gold'>
+                <a
+                  href='/about'
+                  onClick={() => handleLinkClick('/about')}
+                  className={lastPart === '/about' ? 'nav-links-active' : ''}
+                >
+                  {t('nav.about')}
+                </a>
+              </li>
+              <li className='p__cormorant-gold'>
+                <a
+                  href='/newsletter'
+                  className={
+                    lastPart === '/newsletter' ? 'nav-links-active' : ''
+                  }
+                >
+                  {t('nav.newsletter')}
+                </a>
+              </li>
+              <li className='p__cormorant-gold'>
+                <a href='https://www.thalia.de/shop/home/artikeldetails/A1060427891?ProvID=11000533&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3bdxXq_HLusx1XHNKRq8UGIVJOuT9n5WAQxkKwodiqYgy4s4dsJmRoCvd0QAvD_BwE'>
+                  {t('nav.shop')}
+                </a>
+              </li>
+              <li className='p__cormorant-gold'>
+                <a href='https://www.matekamaras.com/'>{t('nav.paintings')}</a>
               </li>
             </ul>
           </div>

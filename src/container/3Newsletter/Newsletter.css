@@ -7,10 +7,16 @@
   min-height: calc(100vh + 100px);
 }
 
-.newsletter_height {
+.zindex  {
+  z-index: 10;
+}
+
+.newsletter-loading {
+  width: 200px;
+}
+
+.newsletter_benchmark {
   position: absolute;
   top: 30%;
-  width: 500px; /* Adjust the width as needed */
-  height: 500px; /* Adjust the height as needed */
-  border: none; /* Remove iframe border */
+  height: 500px;
 }
