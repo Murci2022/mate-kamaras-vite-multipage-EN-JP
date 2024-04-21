@@ -143,20 +143,6 @@
   border-bottom: 1px solid var(--color-golden);
 }
 
-.navbar-language-selector select {
-  padding: 5px 10px;
-  border: 1px solid var(--color-golden);
-  color: var(--color-golden);
-  background-color: var(--color-black);
-  font-family: var(--font-alt);
-  cursor: pointer;
-}
-.navbar-language-selector select:hover {
-  color: var(--color-white);
-
-  cursor: pointer;
-}
-
 .navbar_hamburger-icon {
   cursor: pointer;
   color: var(--color-golden);

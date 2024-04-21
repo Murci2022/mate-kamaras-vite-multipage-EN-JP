@@ -1,5 +1,16 @@
 .language-selector__select select {
-  /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.4); */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  /*box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);  btn shadow  */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* icon shadow */
   border: none;
+  padding: 5px 10px;
+  /* border: 1px solid var(--color-golden); */
+  color: var(--color-golden);
+  background-color: var(--color-black);
+  font-family: var(--font-alt);
+  cursor: pointer;
+}
+.language-selector__select select:hover {
+  color: var(--color-white);
+
+  cursor: pointer;
 }
