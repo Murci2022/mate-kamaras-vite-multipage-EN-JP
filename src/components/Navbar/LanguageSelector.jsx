@@ -15,7 +15,9 @@ const LanguageSelector = ({ selectedLanguage, onChange }) => {
         onChange={handleLanguageChange}
         defaultValue={selectedLanguage}
       >
-        <option value='en'>ENGLISH</option>
+        <option value='en'>
+          <p className='p__cormorant'>ENGLISH</p>
+        </option>
         {/* <option value="de">GERMAN</option> */}
         <option value='jp'>日本語</option>
         {/* Add more options for other languages if needed */}
