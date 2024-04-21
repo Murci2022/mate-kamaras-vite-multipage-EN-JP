@@ -1,9 +1,9 @@
 import './Works.css';
 import PropTypes from 'prop-types';
 const Works = ({ title, price, tags }) => (
-  <div className='shop_item_article'>
-    <div className='shop_item-head'>
-      <div className='shop_item-name'>
+  <div className='works_item_article'>
+    <div className='works_item-head'>
+      <div className='works_item-name'>
         <p
           className='p__cormorant'
           style={{ color: '#DCCA87' }}
@@ -11,8 +11,8 @@ const Works = ({ title, price, tags }) => (
           {title}
         </p>
       </div>
-      <div className='shop_item-dash' />
-      <div className='shop_item-price'>
+      <div className='works_item-dash' />
+      <div className='works_item-price'>
         <p
           className='p__cormorant'
           style={{ color: '#DCCA87' }}
@@ -21,7 +21,7 @@ const Works = ({ title, price, tags }) => (
         </p>
       </div>
     </div>
-    <div className='shopmenu-sub'>
+    <div className='worksmenu-sub'>
       <p
         className='p__opensans'
         style={{ color: '#AAA' }}

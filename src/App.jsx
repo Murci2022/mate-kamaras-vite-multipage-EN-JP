@@ -13,6 +13,7 @@ function App() {
   const { t } = useTranslation();
   return (
     <div className='app__container'>
+      <div className='.app__pop-up-layer'></div>
       <Navbar />
       <Routes>
         <Route

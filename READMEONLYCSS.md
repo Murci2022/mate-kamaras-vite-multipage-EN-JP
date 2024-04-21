@@ -25,6 +25,7 @@ const url = new URL(window.location.href);
 ```
 
 ## shadow on the side(MatesWord comp)
+
 ```css
 .matesword*longcontent {
 margin-top: 15px;
@@ -54,7 +55,7 @@ left: 0;
 .matesword_longcontent::after {
 right: 0;
 }
-``````
+```
 
 ```jsx
 <div className='matesword_longcontent'>
@@ -75,4 +76,8 @@ right: 0;
     </p>
   </div>
 </div>
+```
+<!-- conditional adding css class -->
+```HTML
+<div className={`hero__pop-up ${isShown ? 'border' : ''}`}></div>
 ```
