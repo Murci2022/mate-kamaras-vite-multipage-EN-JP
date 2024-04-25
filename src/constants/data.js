@@ -2,6 +2,21 @@ import images from './images';
 
 const works = [
   {
+    production: 'Juristenball Wien',
+    when: '2024',
+    where: 'Austria || Vienna',
+  },
+  {
+    production: 'Shizuki Asato Dinner Show',
+    when: '2023',
+    where: 'Japan || Tokyo',
+  },
+  {
+    production: 'Made In Japan',
+    when: '2023',
+    where: 'Austria || Wiener Neustadt',
+  },
+  {
     production: 'Hungarian Embassy Concerts',
     when: '2023',
     where: 'Japan || Tokyo',
@@ -12,10 +27,11 @@ const works = [
     where: 'Japan || Tokyo',
   },
   {
-    production: 'Akiko Nakajima Billboard Live',
+    production: 'Musical and Miskolc Gala',
     when: '2023',
-    where: 'Japan || Tokyo',
+    where: 'Hungary || Miskolc',
   },
+
   {
     production: 'Akiko Nakajima and Friends Bilboard Live',
     when: '2022',
@@ -24,7 +40,7 @@ const works = [
   {
     production: 'Sound Of Music Streaming Concert',
     when: '2021',
-    where: 'Germany || Berlin',
+    where: 'Germany',
   },
   {
     production: 'Maya’s Magic Moments Concert',
@@ -49,7 +65,7 @@ const works = [
   {
     production: 'ELISABETH / der TOD',
     when: '2015-2016',
-    where: 'Germany || Vienna',
+    where: 'Germany || Austria',
   },
   {
     production: 'Golden Songs Concert Tour',
@@ -72,7 +88,7 @@ const works = [
     where: 'Japan || Tokyo',
   },
   {
-    production: 'ELISABETH / der TOD (austrian cast)',
+    production: 'ELISABETH / der TOD (Vienna cast)',
     when: '2012',
     where: 'Japan || Tokyo',
   },
@@ -112,7 +128,7 @@ const works = [
     where: 'Japan || Tokyo',
   },
   {
-    production: 'ELISABETH / der TOD (Japan Tour)',
+    production: 'ELISABETH / der TOD (Vienna Cast)',
     when: '2007',
     where: 'Japan || Tokyo',
   },
@@ -138,7 +154,7 @@ const works = [
   },
   {
     production: 'West Side Story / Tony ',
-    when: '1998-2001',
+    when: '2001',
     where: 'Hungary || Szeged',
   },
   {
