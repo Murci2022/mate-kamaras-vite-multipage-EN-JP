@@ -78,7 +78,7 @@ const Footer = () => {
               />
             </a> */}
             <a href='mailto:management@matekamaras.com'>
-              <p>contact form popup</p>
+              <p>management@matekamaras.com</p>
             </a>
             {/* <a href='mailto:management@matekamaras.com'>
               <img

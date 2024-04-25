@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { GiCancel, GiHamburgerMenu } from 'react-icons/gi';
-import { FaFacebook, FaTiktok, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaTiktok, FaInstagram, FaYoutube } from 'react-icons/fa';
 import LanguageSelector from './LanguageSelector'; // Importing the LanguageSelector component
 import './Navbar.css';
 
@@ -29,13 +29,16 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='nav__icons-wrapper'>
         <div className='nav__icons'>
-          <a href='#'>
+          <a href='https://www.facebook.com/matekamarasofficial/'>
             <FaFacebook />
           </a>
           <a href='#'>
             <FaTiktok />
           </a>
-          <a href='#'>
+          {/*  <a href='#'>
+            <FaYoutube />
+          </a> */}
+          <a href='https://www.instagram.com/matekamaras/'>
             <FaInstagram />
           </a>
         </div>
