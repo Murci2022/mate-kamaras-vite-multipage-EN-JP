@@ -27,10 +27,6 @@
   width: 70px;
 }
 
-.nav-links-active {
-  color: var(--color-grey);
-}
-
 .navbar-links {
   flex: 1;
   display: flex;
@@ -49,8 +45,11 @@
   transition: border-bottom 0.2s ease-in-out; /* Adjust the duration as needed */
 }
 .navbar-links li:hover {
-  color: var(--color-white);
+  /* color: var(--color-white); */
   border-bottom: 1px solid var(--color-golden);
+}
+.nav-links-active {
+  color: var(--color-white);
 }
 .navbar-links li:active {
   color: var(--color-golden-active);

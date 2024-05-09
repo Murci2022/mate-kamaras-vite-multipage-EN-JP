@@ -30,8 +30,10 @@ import pos17 from '../assets/pos17.png';
 import pos18 from '../assets/pos18.png';
 import en from '../assets/en.png';
 import jp from '../assets/jp.png';
+import tatsumimarie from '../assets/tatsumimarie.png';
 
 export default {
+  tatsumimarie,
   en,
   jp,
   pos00,
