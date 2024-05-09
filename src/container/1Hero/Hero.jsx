@@ -26,7 +26,7 @@ const Header = () => {
         <div className={`hero__pop-up ${isShown ? 'hero__pop-up_shown' : ''}`}>
           <div className='hero__pop-up-conti'>
             <div className='hero__pop-up-conti_header'>
-              <h1 className='hero-h1_pop-up'>Mate's News</h1>
+              <h1 className='hero-h1_pop-up'>{t('hero.news')}</h1>
               <GiCancel
                 fontSize={12}
                 className='nav__overlay-close'
@@ -36,7 +36,7 @@ const Header = () => {
           </div>
           <div className='hero__pop-up-conti_img'>
             <img
-              src={images.pos00}
+              src={images.tatsumimarie}
               alt='img of poster'
             />
           </div>
@@ -46,7 +46,9 @@ const Header = () => {
             className='custom__button hero__pop-up_btn'
             onClick={console.log('click')}
           >
-            {t('hero.pop-up-button-msg')}
+            <a href='http://www.tatsumimarie.jp/event-form-20240921/index.php?name=%E8%BE%B0%E5%B7%B3%E7%9C%9F%E7%90%86%E6%81%B5%E3%82%BD%E3%83%97%E3%83%A9%E3%83%8E%E3%83%AA%E3%82%B5%E3%82%A4%E3%82%BF%E3%83%ABVol.6'>
+              {t('hero.pop-up-button-msg')}
+            </a>
           </button>
         </div>
 
@@ -80,6 +82,7 @@ const Header = () => {
           />
         </figure>
       </section>
+
       <MatesWord />
       <Awards />
     </>

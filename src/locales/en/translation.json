@@ -12,12 +12,20 @@
   },
   "hero": {
     "subhead": "Singer / Painter",
-    "name": "Matè",
+    "name": "Mate",
     "fname": "Kamaras",
     "desc": "Borned in Hungary, he rose to fame for his portrayal of 'der Tod' in Elisabeth. The musical's success led to a DVD release, immortalizing their performance. Now, join him as he continues to captivate audiences with his enchanting voice and magnetic stage presence.",
     "news": "what's new?",
     "pop-up-button-msg": "Tickets"
   },
+  "matesword": {
+    "subhead": "Mate's Word",
+    "title": "What I Belive",
+
+    "textA": "I consider myself fortunate to be able to work as a singer.",
+    "textB": "From my early years, the stage has been my dream, and through hard work and dedication, I've brought to life various characters such as der Tod, Tony, Jean Valjean, Nick, and many more. My journey has taken me from Hungary to Vienna and then to Japan. When I began my career, I never imagined singing in German, English, and even Japanese. Besides Hungary, Vienna, and Tokyo have become my second homes. Grateful for the opportunities my career has provided, I've learned that life is a mix of ups and downs, luck, and disasters. Every moment is special, and I strive to cherish each one. Each role I've undertaken is a testament to the dedication and passion I bring to my craft. Achieving success demands perseverance and an unwavering commitment to never give up on your dreams. That is what I believe."
+  },
+
   "newsletter": {
     "lng": "en"
   },
