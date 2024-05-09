@@ -77,9 +77,10 @@ const Footer = () => {
                 alt='english flag'
               />
             </a> */}
-            <a href='mailto:management@matekamaras.com'>
-              <p>management@matekamaras.com</p>
+            <a href={`mailto:${t('footer.contact')}`}>
+              <p>{t('footer.contact')}</p>
             </a>
+
             {/* <a href='mailto:management@matekamaras.com'>
               <img
                 className='footer__icon-flag'
