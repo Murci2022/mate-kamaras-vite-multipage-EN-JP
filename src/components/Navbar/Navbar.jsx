@@ -82,14 +82,6 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Integrate the LanguageSelector component */}
-      <div className='navbar-language-selector'>
-        <LanguageSelector
-          onChange={handleLanguageChange}
-          selectedLanguage={selectedLanguage}
-        />
-      </div>
-
       {/* Hamburger menu for small screens */}
       <div className='navbar-smallscreen'>
         <GiHamburgerMenu
@@ -148,6 +140,13 @@ const Navbar = () => {
             </ul>
           </div>
         )}
+      </div>
+      {/* Integrate the LanguageSelector component */}
+      <div className='navbar-language-selector'>
+        <LanguageSelector
+          onChange={handleLanguageChange}
+          selectedLanguage={selectedLanguage}
+        />
       </div>
     </nav>
   );
