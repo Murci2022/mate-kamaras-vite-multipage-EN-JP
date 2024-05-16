@@ -75,7 +75,7 @@ const Header = () => {
             {t('hero.news')}
           </button>
         </article>
-        <figure className='app__wrapper_img hero__max-width'>
+        <figure className='app__wrapper_img hero__max-width hero__img-shadow'>
           <img
             src={images.mate_hero}
             alt='hero img'

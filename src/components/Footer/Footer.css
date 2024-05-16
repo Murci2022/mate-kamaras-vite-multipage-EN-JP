@@ -113,6 +113,11 @@
   width: 20px;
 }
 
+.footer__newsletter {
+  margin: 3rem;
+  text-align: center;
+}
+
 @media screen and (max-width: 990px) {
   .newsletter-container_signup input {
     margin: 0 0 2rem 0;

@@ -25,7 +25,7 @@ const AwardsCard = ({ award: { imgUrl, title, subtitle } }) => {
 
 const Awards = () => {
   return (
-    <div className='app__bg app__wrapper section__padding'>
+    <section className='app__bg app__wrapper section__padding matesword__margin-top'>
       <div className='app__wrapper_info'>
         <SubHeading title='Awards & Recognitions' />
         <h1 className='h1__cormorant'>Thank You</h1>
@@ -38,13 +38,13 @@ const Awards = () => {
           ))}
         </div>
       </div>
-      <div className='app__wrapper_img'>
+      <div className='app__wrapper_img hero__img-shadow'>
         <img
           src={images.awards_img}
           alt='img of Mate in a park, with sunglasses'
         />
       </div>
-    </div>
+    </section>
   );
 };
 

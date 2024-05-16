@@ -1,6 +1,6 @@
 import './Works.css';
 import PropTypes from 'prop-types';
-const Works = ({ title, price, tags }) => (
+const Works = ({ production, when, where }) => (
   <div className='works_item_article'>
     <div className='works_item-head'>
       <div className='works_item-name'>
@@ -8,7 +8,7 @@ const Works = ({ title, price, tags }) => (
           className='p__cormorant'
           style={{ color: '#DCCA87' }}
         >
-          {title}
+          {production}
         </p>
       </div>
       <div className='works_item-dash' />
@@ -17,7 +17,7 @@ const Works = ({ title, price, tags }) => (
           className='p__cormorant'
           style={{ color: '#DCCA87' }}
         >
-          {price}
+          {when}
         </p>
       </div>
     </div>
@@ -26,7 +26,7 @@ const Works = ({ title, price, tags }) => (
         className='p__opensans'
         style={{ color: '#AAA' }}
       >
-        {tags}
+        {where}
       </p>
     </div>
   </div>

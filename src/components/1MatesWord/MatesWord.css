@@ -11,7 +11,7 @@
 }
 
 .matesword__margin-top {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .matesword_longcontent {
@@ -96,18 +96,22 @@
   .matesword-sign img {
     width: 370px;
   }
-}
-/* @media screen and (max-width: 650px) {
-  .matesword-content_quote {
-    display: block;
+  .matesword-img_holder {
+    margin-top: 3rem;
   }
-} */
+}
+@media screen and (max-width: 990px) {
+}
+@media screen and (max-width: 650px) {
+  .matesword__margin-top {
+    margin-top: 0;
+  }
+}
 @media screen and (max-width: 450px) {
-  .matesword-sign img {
+  .matesword-sign {
     width: 60%;
   }
-
-  .matesword-content {
-    padding: 1rem;
+  .matesword-sign img {
+    width: 100%;
   }
 }

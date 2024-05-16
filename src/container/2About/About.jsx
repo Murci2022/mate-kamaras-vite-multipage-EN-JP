@@ -22,9 +22,9 @@ const About = () => (
             return (
               <Works
                 key={work.production + index}
-                title={work.production}
-                price={work.when}
-                tags={work.where}
+                production={work.production}
+                when={work.when}
+                where={work.where}
               />
             );
           })}
