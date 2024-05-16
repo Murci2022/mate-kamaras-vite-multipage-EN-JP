@@ -36,7 +36,7 @@ const Header = () => {
           </div>
           <div className='hero__pop-up-conti_img'>
             <img
-              src={images.tatsumimarie}
+              src={images.nextconcert}
               alt='img of poster'
             />
           </div>

@@ -30,10 +30,10 @@ import pos17 from '../assets/pos17.png';
 import pos18 from '../assets/pos18.png';
 import en from '../assets/en.png';
 import jp from '../assets/jp.png';
-import tatsumimarie from '../assets/tatsumimarie.png';
+import nextconcert from '../assets/nextconcert.png';
 
 export default {
-  tatsumimarie,
+  nextconcert,
   en,
   jp,
   pos00,
