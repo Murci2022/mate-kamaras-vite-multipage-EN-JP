@@ -37,7 +37,7 @@ const Footer = () => {
   const { t, i18n } = useTranslation();
   console.log(t);
   return (
-    <div className='app__bg section__padding'>
+    <div className='app__bg '>
       <div className='footer__newsletter'>
         {/* <Newsletter /> */}
         <div

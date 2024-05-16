@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { GiCancel, GiHamburgerMenu } from 'react-icons/gi';
-import { FaFacebook, FaTiktok, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 import LanguageSelector from './LanguageSelector'; // Importing the LanguageSelector component
 import './Navbar.css';
 
@@ -32,8 +32,8 @@ const Navbar = () => {
           <a href='https://www.facebook.com/matekamarasofficial/'>
             <FaFacebook />
           </a>
-          <a href='#'>
-            <FaTiktok />
+          <a href='https://www.youtube.com/watch?v=0Us6LXhvnyM'>
+            <FaYoutube />
           </a>
           {/*  <a href='#'>
             <FaYoutube />
@@ -141,6 +141,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
+
       {/* Integrate the LanguageSelector component */}
       <div className='navbar-language-selector'>
         <LanguageSelector
