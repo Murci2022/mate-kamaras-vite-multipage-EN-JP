@@ -33,17 +33,17 @@ const works = [
   },
 
   {
-    production: 'Akiko Nakajima and Friends Bilboard Live',
+    production: 'Akiko Nakajima and Friends',
     when: '2022',
     where: 'Japan || Tokyo',
   },
   {
-    production: 'Sound Of Music Streaming Concert',
+    production: 'Sound Of Music Concert',
     when: '2021',
     where: 'Germany',
   },
   {
-    production: 'Maya’s Magic Moments Concert',
+    production: 'Maya’s Magic Moments',
     when: '2020',
     where: 'Austria || Vienna',
   },
@@ -93,7 +93,7 @@ const works = [
     where: 'Japan || Tokyo',
   },
   {
-    production: 'ELISABETH / der TOTO (japanese cast)',
+    production: 'ELISABETH / der TOD (japanese cast)',
     when: '2012',
     where: 'Japan || Tokyo',
   },
@@ -143,9 +143,9 @@ const works = [
     where: 'Europe || Various',
   },
   {
-    production: 'CHESS / the American',
-    when: '2000',
-    where: 'Norway || Oslo',
+    production: 'Webber Gala/ Solist',
+    when: '2002',
+    where: 'Europe || Various',
   },
   {
     production: 'ELIZABETH / Halál ',
@@ -158,6 +158,11 @@ const works = [
     where: 'Hungary || Szeged',
   },
   {
+    production: 'CHESS / the American',
+    when: '2000',
+    where: 'Norway || Oslo',
+  },
+  {
     production: 'FALCO CYBER SHOW/ Amadeus',
     when: '2000',
     where: 'Austria || Vienna',
@@ -168,6 +173,16 @@ const works = [
     where: 'Austria || Vienna',
   },
   {
+    production: 'Attila Isten Kardja / Csaba',
+    when: '1999',
+    where: 'Hungary || Szeged',
+  },
+  {
+    production: 'Rock It! / Tenor',
+    when: '1998',
+    where: 'Austria || Zell am See',
+  },
+  {
     production: 'TANZ DER VAMPIRE / Tenor Solo',
     when: '1997-1998',
     where: 'Austria || Vienna',
@@ -176,6 +191,16 @@ const works = [
     production: 'FAME / Nick',
     when: '1996',
     where: 'Hungary || Budapest',
+  },
+  {
+    production: 'Barbarok / Elke',
+    when: '1996',
+    where: 'Hungary || Miskolc',
+  },
+  {
+    production: 'Les Miserable / Jean Valjean',
+    when: '1995',
+    where: 'Hungary || Miskolc',
   },
 ];
 

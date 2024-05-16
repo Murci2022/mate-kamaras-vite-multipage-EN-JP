@@ -7,16 +7,16 @@ import './About.css';
 
 const About = () => (
   <section
-    className='shop__section margin-top flex__center section__padding'
-    id='shop'
+    className='about__section margin-top flex__center section__padding'
+    id='about'
   >
-    <div className=' shop-title'>
+    <div className=' about-title'>
       <h1 className='h1__cormorant'>Mate&apos;s Stages</h1>
       <SubHeading title='' />
     </div>
-    <article className='shop-menu '>
-      <div className=' shop-menu_mates '>
-        <div className='shop-menu_items'>
+    <article className='about-menu '>
+      <div className=' about-menu_mates '>
+        <div className='about-menu_items'>
           {data.works.map((work, index) => {
             console.log(work);
             return (

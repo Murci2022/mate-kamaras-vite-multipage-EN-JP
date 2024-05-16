@@ -2,20 +2,19 @@
   border: 5px solid red;
 }
 
-.shop__section {
+.about__section {
   flex-direction: column;
-  padding-top: 100px; /* Adjust this value to match the height of your fixed navbar */
+  padding-top: 140px;
   min-height: calc(100vh - 100px);
   background: var(--color-black);
   position: relative;
-  height: ;
 }
 
-.shop-title {
-  margin-bottom: 2rem;
+.about-title {
+  /*  margin-bottom: 2rem; */
   text-align: center;
 }
-.shop-overlay {
+.about-overlay {
   position: absolute;
   inset: 0;
 }
@@ -26,9 +25,9 @@
     z-index: 0;
   } */
 
-.shop-menu {
+.about-menu {
   max-width: 1600px;
-  margin: 2rem 0;
+  /*  margin-bottom: 2rem; */
   display: flex;
 
   justify-content: center;
@@ -36,7 +35,7 @@
   flex-direction: row;
 }
 
-.shop-menu_heading {
+.about-menu_heading {
   font-family: var(--font-base);
   font-weight: 600px;
   font-size: 45px;
@@ -45,56 +44,63 @@
   color: var(--color-white);
 }
 
-.shop-menu_mates,
-.shop-menu_production {
+.about-menu_mates,
+.about-menu_production {
   flex: 1;
 
   flex-direction: column;
 }
 
-.shop-menu_img {
+.about-menu_img {
   width: 410px;
   margin: 0 2rem;
   /* visibility: hidden; */
 }
 
-.shop-menu_img img {
+.about-menu_img img {
   width: 100%;
   height: auto;
 }
 
-.shop-menu_items {
+.about-menu_items {
   display: flex;
   flex-direction: column;
-  margin: 2rem 0;
+  margin: 1rem 0;
   width: 100%;
 }
 
 @media screen and (min-width: 2000px) {
-  .shop-menu_img {
+  .about-menu_img {
     width: 600px;
   }
-  .shop-menu_img {
+  .about-menu_img {
     height: 920px;
   }
 }
 @media screen and (max-width: 1150px) {
-  .shop-menu_img {
+  .about-menu_img {
     margin: 3rem 0;
   }
 }
 @media screen and (max-width: 650px) {
-  .shop-menu_img {
+  .about-menu_img {
     width: 100%;
   }
-  .shop_item-dash {
+  .about_item-dash {
     display: none;
   }
-  .shop_item-head {
+  .works_item-head {
+    display: block;
+  }
+  .about_item-head {
     align-items: start;
   }
-  .shop-menu_heading {
+  .about-menu_heading {
     font-size: 35px;
     line-height: 48.5px;
+  }
+  .about-menu_mates,
+  .about-menu_production {
+    text-align: center;
   }
 }

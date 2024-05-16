@@ -238,6 +238,9 @@
     /* margin: 4rem 0 0 0; */
     width: 100%;
   }
+  .works_item-dash {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -263,6 +266,7 @@
 
   .p__cormorant {
     font-size: 19px;
+    letter-spacing: 0;
   }
 
   .h1__cormorant {
@@ -270,7 +274,7 @@
     line-height: 60px;
   }
 
-  .app__container {
-    background-color: gray;
+  .section__padding {
+    padding: 15px;
   }
 }
