@@ -175,6 +175,11 @@
   width: 50px;
 }
 
+.horizontal-align {
+  display: flex;
+  align-items: center;
+}
+
 /* @media screen and (min-width: 2000px) {
   .custom__button,
   .p__cormorant {

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { images } from '../../constants';
 import { useTranslation } from 'react-i18next';
 import { GiCancel, GiHamburgerMenu } from 'react-icons/gi';
 import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
@@ -17,6 +18,8 @@ const Navbar = () => {
   console.log(i18n.language, '????');
   const selectedLanguage = i18n.language;
   console.log(selectedLanguage);
+  const lang = i18n.language;
+  console.warn(lang, 'lang');
 
   const handleLanguageChange = (lang) => {
     console.log(lang, 'lang');
@@ -26,7 +29,7 @@ const Navbar = () => {
   const handleLinkClick = () => {};
 
   return (
-    <nav className='navbar'>
+    <nav className=' navbar'>
       <div className='nav__icons-wrapper'>
         <div className='nav__icons'>
           <a href='https://www.facebook.com/matekamarasofficial/'>
@@ -64,12 +67,20 @@ const Navbar = () => {
             {t('nav.about')}
           </a>
         </li>
-        <li className='p__cormorant-gold'>
+        <li className='p__cormorant-gold horizontal-align'>
           <a
             href='/newsletter'
-            className={lastPart === '/newsletter' ? 'nav-links-active' : ''}
+            className={`horizontal-align${
+              lastPart === '/newsletter' ? 'nav-links-active' : ''
+            }`}
           >
             {t('nav.newsletter')}
+
+            <img
+              style={{ width: '12px', height: '12px' }}
+              src={lang === 'en' ? images.en : images.jp}
+              alt='english flag'
+            />
           </a>
         </li>
         <li className='p__cormorant-gold'>
@@ -91,13 +102,13 @@ const Navbar = () => {
         />
 
         {toggleMenu && (
-          <div className='navbar-smallscreen_overlay flex__center slide-bottom'>
+          <div className=' navbar-smallscreen_overlay flex__center slide-bottom'>
             <GiCancel
               fontSize={12}
               onClick={() => setToggleMenu(false)}
               className='nav__overlay-close'
             />
-            <ul className='navbar-smallscreen-links'>
+            <ul className=' navbar-smallscreen-links'>
               <li className='p__cormorant-gold '>
                 <a
                   href='/'
@@ -122,11 +133,16 @@ const Navbar = () => {
               <li className='p__cormorant-gold'>
                 <a
                   href='/newsletter'
-                  className={
+                  className={`horizontal-align ${
                     lastPart === '/newsletter' ? 'nav-links-active' : ''
-                  }
+                  }`}
                 >
                   {t('nav.newsletter')}
+                  <img
+                    style={{ width: '12px', height: '12px' }}
+                    src={lang === 'en' ? images.en : images.jp}
+                    alt='english flag'
+                  />
                 </a>
               </li>
               <li className='p__cormorant-gold'>

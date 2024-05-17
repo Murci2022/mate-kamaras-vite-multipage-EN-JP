@@ -32,6 +32,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.bL {
+  border: 10px solid red;
+}
+
 .shadow {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
