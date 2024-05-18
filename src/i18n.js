@@ -15,7 +15,7 @@ i18n
       jp: { translation: jpJson },
     },
 
-    lng: 'en', // default language
+    /* lng: 'en',  */ // default language
     fallbackLng: 'en',
     debug: true,
     interpolation: {
