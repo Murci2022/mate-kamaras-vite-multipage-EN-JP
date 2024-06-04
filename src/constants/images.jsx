@@ -30,12 +30,18 @@ import pos17 from '../assets/pos17.png';
 import pos18 from '../assets/pos18.png';
 import en from '../assets/en.png';
 import jp from '../assets/jp.png';
+import ko from '../assets/ko.png';
+import zh from '../assets/zh.png';
+import hu from '../assets/hu.png';
 import nextconcert from '../assets/nextconcert.png';
 
 export default {
   nextconcert,
   en,
   jp,
+  ko,
+  zh,
+  hu,
   pos00,
   pos01,
   pos01b,
