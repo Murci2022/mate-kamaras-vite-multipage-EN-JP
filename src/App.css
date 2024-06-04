@@ -136,7 +136,7 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-feature-settings: 'tnum' on, 'lnum' on;
-  line-height: 29.9px;
+  /* line-height: 29.9px; */
   font-size: 16px;
 }
 .p__cormorant-gold:hover {
@@ -176,6 +176,7 @@
 }
 
 .horizontal-align {
+  border: 1px solid red;
   display: flex;
   align-items: center;
 }

@@ -58,7 +58,7 @@ const Navbar = () => {
             {t('nav.home')}
           </a>
         </li>
-        <li className='p__cormorant-gold'>
+        <li className='p__cormorant-gold horizontal-align'>
           <a
             href='/about'
             onClick={() => handleLinkClick('/about')}
@@ -70,7 +70,7 @@ const Navbar = () => {
         <li className='p__cormorant-gold horizontal-align'>
           <a
             href='/newsletter'
-            className={`horizontal-align${
+            className={`${
               lastPart === '/newsletter' ? 'nav-links-active' : ''
             }`}
           >
