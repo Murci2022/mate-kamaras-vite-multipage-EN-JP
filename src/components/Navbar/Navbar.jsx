@@ -75,25 +75,24 @@ const Navbar = () => {
             }`}
           >
             {t('nav.newsletter')}
-
-            <img
-              style={{ width: '12px', height: '12px' }}
-              src={
-                lang === 'en'
-                  ? images.en
-                  : lang === 'jp'
-                  ? images.jp
-                  : lang === 'zh'
-                  ? images.zh
-                  : lang === 'ko'
-                  ? images.ko
-                  : lang === 'hu'
-                  ? images.hu
-                  : images.default // optional default case
-              }
-              alt='english flag'
-            />
           </a>
+          <img
+            style={{ width: '16px', height: '16px', marginLeft: '5px' }}
+            src={
+              lang === 'en'
+                ? images.en
+                : lang === 'jp'
+                ? images.jp
+                : lang === 'zh'
+                ? images.zh
+                : lang === 'ko'
+                ? images.ko
+                : lang === 'hu'
+                ? images.hu
+                : images.default // optional default case
+            }
+            alt='english flag'
+          />
         </li>
         <li className='p__cormorant-gold'>
           <a href='https://www.thalia.de/shop/home/artikeldetails/A1060427891?ProvID=11000533&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3bdxXq_HLusx1XHNKRq8UGIVJOuT9n5WAQxkKwodiqYgy4s4dsJmRoCvd0QAvD_BwE'>
