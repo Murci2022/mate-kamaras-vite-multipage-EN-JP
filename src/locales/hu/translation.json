@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Főoldal",
+    "about": "Rólunk",
+    "shop": "Bolt",
+    "contact": "Kapcsolat",
+    "newsletter": "Hírlevél",
+    "news": "Hírek",
+    "bonus": "Bónusz",
+    "paintings": "Festmények",
+    "blog": "Blog"
+  },
+
+  "hero": {
+    "subhead": "Énekes / Festő",
+    "name": "Máté",
+    "fname": "Kamarás",
+    "desc": "Magyarországon született, és híressé vált 'der Tod' szerepének eljátszásával az Elisabeth című musicalben. A musical sikere egy DVD kiadásához vezetett, amely megörökítette az előadásukat. Most csatlakozz hozzá, ahogy továbbra is elbűvöli a közönséget varázslatos hangjával és mágneses színpadi jelenlétével.",
+    "news": "Mi az új?",
+    "pop-up-button-msg": "Jegyek"
+  },
+  "matesword": {
+    "subhead": "Máté Szava",
+    "title": "Amiben Hiszek",
+    "textA": "Szerencsésnek tartom magam, hogy énekesként dolgozhatok.",
+    "textB": "Korai éveimtől kezdve a színpad volt az álmom, és kemény munkával és elkötelezettséggel életre keltettem különböző karaktereket, mint der Tod, Tony, Jean Valjean, Nick és még sok más. Utam Magyarországról Bécsbe, majd Japánba vezetett. Amikor elkezdtem a karrieremet, sosem gondoltam volna, hogy németül, angolul és még japánul is fogok énekelni. Magyarország mellett Bécs és Tokió második otthonommá vált. Hálás vagyok a karrierem nyújtotta lehetőségekért, és megtanultam, hogy az élet tele van hullámhegyekkel és hullámvölgyekkel, szerencsével és katasztrófákkal. Minden pillanat különleges, és igyekszem mindegyiket megbecsülni. Minden szerep, amit elvállaltam, annak a bizonyítéka, hogy milyen elhivatottsággal és szenvedéllyel végzem a munkámat. A siker eléréséhez kitartásra és arra van szükség, hogy soha ne adjuk fel az álmainkat. Ez az, amiben hiszek."
+  },
+
+  "newsletter": {
+    "lng": "hu"
+  },
+  "footer": {
+    "contact": "management@matekamaras.com"
+  }
+}
