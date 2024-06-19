@@ -5,16 +5,10 @@ import SubHeading from '../SubHeading/SubHeading';
 import './MatesWord.css';
 
 const MatesWord = () => {
-  const [isShown, setIsShown] = useState(false);
   const { t } = useTranslation();
-  const handleClick = () => {
-    setIsShown(!isShown);
-    console.log(isShown, 'button clicked');
-  };
+
   return (
     <section className='app__bg app__wrapper section__padding app__reverse matesword__margin-top'>
-      <div></div>
-
       <div className='matesword-img_holder  '>
         <figure className='app__wrapper_img max-width app__wrapper_img-reverse shadow'>
           <img

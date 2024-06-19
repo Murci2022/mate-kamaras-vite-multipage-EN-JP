@@ -1,6 +1,6 @@
 import SubHeading from '../SubHeading/SubHeading';
+import PropTypes from 'prop-types';
 import { images, data } from '../../constants';
-
 import './Awards.css';
 
 const AwardsCard = ({ award: { imgUrl, title, subtitle } }) => {
@@ -46,6 +46,13 @@ const Awards = () => {
       </div>
     </section>
   );
+};
+AwardsCard.propTypes = {
+  award: PropTypes.shape({
+    imgUrl: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Awards;
