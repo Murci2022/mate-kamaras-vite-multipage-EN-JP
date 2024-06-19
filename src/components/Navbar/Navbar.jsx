@@ -91,7 +91,7 @@ const Navbar = () => {
                 ? images.hu
                 : images.default // optional default case
             } */
-            src={images.en}
+            src={lang === 'en' ? images.en : images.jp}
             alt='english flag'
           />
         </li>
