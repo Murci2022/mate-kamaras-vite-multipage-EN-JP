@@ -78,7 +78,7 @@ const Navbar = () => {
           </a>
           <img
             style={{ width: '16px', height: '16px', marginLeft: '5px' }}
-            /* src={
+            src={
               lang === 'en'
                 ? images.en
                 : lang === 'jp'
@@ -89,9 +89,9 @@ const Navbar = () => {
                 ? images.ko
                 : lang === 'hu'
                 ? images.hu
-                : images.default // optional default case
-            } */
-            src={lang === 'en' ? images.en : images.jp}
+                : images.en // optional default case
+            }
+            /* src={lang === 'en' ? images.en : images.jp} */
             alt='english flag'
           />
         </li>
