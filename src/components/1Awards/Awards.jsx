@@ -1,9 +1,12 @@
 import SubHeading from '../SubHeading/SubHeading';
+import { useTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
 import { images, data } from '../../constants';
 import './Awards.css';
 
 const AwardsCard = ({ award: { imgUrl, title, subtitle } }) => {
+  console.log(imgUrl, 'imgUrl');
+
   return (
     <div className='awards-card'>
       <img
@@ -17,20 +20,32 @@ const AwardsCard = ({ award: { imgUrl, title, subtitle } }) => {
         >
           {title}
         </p>
+        <p>{imgUrl}</p>
         <p className='p__cormorant'>{subtitle}</p>
       </div>
     </div>
   );
 };
+AwardsCard.propTypes = {
+  award: PropTypes.shape({
+    imgUrl: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 const Awards = () => {
+  const { t } = useTranslation();
+  const awards = t('awards', { returnObjects: true });
+  console.log(awards, 'awards');
+
   return (
     <section className='app__bg app__wrapper section__padding matesword__margin-top'>
       <div className='app__wrapper_info'>
         <SubHeading title='Awards & Recognitions' />
         <h1 className='h1__cormorant'>Thank You</h1>
         <div className='awards-info'>
-          {data.awards.map((award) => (
+          {awards.map((award) => (
             <AwardsCard
               key={award.title}
               award={award}
@@ -46,13 +61,6 @@ const Awards = () => {
       </div>
     </section>
   );
-};
-AwardsCard.propTypes = {
-  award: PropTypes.shape({
-    imgUrl: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    subtitle: PropTypes.string.isRequired,
-  }).isRequired,
 };
 
 export default Awards;

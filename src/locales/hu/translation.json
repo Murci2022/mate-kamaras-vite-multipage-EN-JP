@@ -13,12 +13,35 @@
 
   "hero": {
     "subhead": "Énekes / Festő",
-    "name": "Máté",
-    "fname": "Kamarás",
+    "name": "Kamarás",
+    "fname": "Máté",
     "desc": "Magyarországon született, és híressé vált 'der Tod' szerepének eljátszásával az Elisabeth című musicalben. A musical sikere egy DVD kiadásához vezetett, amely megörökítette az előadásukat. Most csatlakozz hozzá, ahogy továbbra is elbűvöli a közönséget varázslatos hangjával és mágneses színpadi jelenlétével.",
     "news": "Mi az új?",
     "pop-up-button-msg": "Jegyek"
   },
+  
+  "awards": [
+    {
+      "imgUrl": "images.awards1",
+      "title": "Elisabeth DVD - Kétszeres Platina",
+      "subtitle": "mint 'Der Tod' - 10. évfordulós szereposztás."
+    },
+    {
+      "imgUrl": "images.awards3",
+      "title": "Jószolgálati Nagykövet",
+      "subtitle": "Átvette a 'V4+Japán' Kulturális Csereévért 2014-ben"
+    },
+    {
+      "imgUrl": "images.awards2",
+      "title": "Múzsa Díj",
+      "subtitle": "Szülővárosa, Miskolc tisztelte meg elismerésével."
+    },
+    {
+      "imgUrl": "images.awards4",
+      "title": "Elisabeth CD - Kétszeres Arany",
+      "subtitle": "mint 'Der Tod' - 10. évfordulós szereposztás."
+    }
+  ],
   "matesword": {
     "subhead": "Máté Szava",
     "title": "Amiben Hiszek",
