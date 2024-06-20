@@ -10,7 +10,7 @@ const AwardsCard = ({ award: { imgUrl, title, subtitle } }) => {
   return (
     <div className='awards-card'>
       <img
-        src={imgUrl}
+        src={images.awards1}
         alt='award logo with number'
       />
       <div className='awards-card_content'>
