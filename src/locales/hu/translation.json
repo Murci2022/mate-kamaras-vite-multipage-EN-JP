@@ -19,7 +19,7 @@
     "news": "Mi az új?",
     "pop-up-button-msg": "Jegyek"
   },
-  
+
   "awards": [
     {
       "imgUrl": "images.awards1",
@@ -42,6 +42,12 @@
       "subtitle": "mint 'Der Tod' - 10. évfordulós szereposztás."
     }
   ],
+  
+    "awardsTitle": {
+      "subhead": "Díjak és Elismertségek",
+      "title": "Köszönöm"
+    },
+  
   "matesword": {
     "subhead": "Máté Szava",
     "title": "Amiben Hiszek",
