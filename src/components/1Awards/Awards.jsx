@@ -10,7 +10,7 @@ const AwardsCard = ({ award: { imgUrl, title, subtitle } }) => {
   return (
     <div className='awards-card'>
       <img
-        src={images.awards1}
+        src={imgUrl}
         alt='award logo with number'
       />
       <div className='awards-card_content'>
@@ -42,8 +42,8 @@ const Awards = () => {
   return (
     <section className='app__bg app__wrapper section__padding matesword__margin-top'>
       <div className='app__wrapper_info'>
-        <SubHeading title='Awards & Recognitions' />
-        <h1 className='h1__cormorant'>Thank You</h1>
+        <SubHeading title={t('awardsTitle.subhead')} />
+        <h1 className='h1__cormorant'>{t('awardsTitle.title')}</h1>
         <div className='awards-info'>
           {awards.map((award) => (
             <AwardsCard

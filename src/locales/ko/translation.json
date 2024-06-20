@@ -10,6 +10,12 @@
     "paintings": "그림",
     "blog": "블로그"
   },
+
+  "awardsTitle": {
+    "subhead": "수상 및 인식",
+    "title": "감사합니다"
+  },
+
   "hero": {
     "subhead": "가수 / 화가",
     "name": "마테",

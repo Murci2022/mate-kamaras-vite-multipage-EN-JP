@@ -19,6 +19,8 @@
     "pop-up-button-msg": "Tickets"
   },
 
+
+
   "awards": [
     {
       "imgUrl": "images.awards1",
@@ -41,6 +43,11 @@
       "subtitle": "as 'Der Tod' - 10th Anniversary Cast."
     }
   ],
+
+  "awardsTitle": {
+    "subhead": "Awards&Recognition",
+    "title": "Thank You"
+  },
 
   "matesword": {
     "subhead": "Mate's Word",
