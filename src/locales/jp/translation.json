@@ -21,7 +21,7 @@
 
   "awardsTitle": {
     "subhead": "賞と表彰",
-    "title": "ありがとうございます"
+    "title": "ありがとう"
   },
 
   "matesword": {
@@ -36,6 +36,6 @@
     "lng": "jp"
   },
   "footer": {
-    "contact": "mkmanagement@kyodofactory.jp"
+    "contact": "okuyama@kyodofactory.jp"
   }
 }

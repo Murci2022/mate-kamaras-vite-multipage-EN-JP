@@ -5,6 +5,7 @@ import { images, data } from '../../constants';
 import './Awards.css';
 
 const AwardsCard = ({ award: { imgUrl, title, subtitle } }) => {
+  console.log(data.awards, 'data.awards');
   console.log(imgUrl, 'imgUrl');
 
   return (

@@ -19,13 +19,11 @@
     "pop-up-button-msg": "Tickets"
   },
 
-
-
   "awards": [
     {
       "imgUrl": "images.awards1",
       "title": "Elisabeth DVD - Double Platinium",
-      "subtitle": "as 'Der Tod' - 10th Anniversary Cast."
+      "subtitle": "'Der Tod' - 10th Anniversary Cast."
     },
     {
       "imgUrl": "images.awards3",
@@ -40,12 +38,12 @@
     {
       "imgUrl": "images.awards4",
       "title": "Elisabeth CD - Double Gold",
-      "subtitle": "as 'Der Tod' - 10th Anniversary Cast."
+      "subtitle": "'Der Tod' - 10th Anniversary Cast."
     }
   ],
 
   "awardsTitle": {
-    "subhead": "Awards&Recognition",
+    "subhead": "Awards & Honors",
     "title": "Thank You"
   },
 

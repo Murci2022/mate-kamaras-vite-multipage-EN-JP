@@ -10,14 +10,13 @@ import './Hero.css';
 
 const Header = () => {
   const [isShown, setIsShown] = useState(false);
-  console.log(isShown);
 
   const { t, i18n } = useTranslation();
   return (
     <>
       <div style={{ height: '100px' }}></div>
       <div className={isShown ? 'app__pop-up-layer' : ''}></div>
-      {/*   */}
+      
       <section
         className=' hero__bg app__wrapper margin-top section__padding'
         id='home'
