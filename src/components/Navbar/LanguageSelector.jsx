@@ -22,8 +22,8 @@ const LanguageSelector = ({ selectedLanguage, onChange }) => {
         {/* <option value="de">GERMAN</option> */}
         <option value='jp'>日本語</option>
         <option value='hu'>MAGYAR</option>
-        <option value='zh'>简体中文</option>
-        <option value='ko'>한국어</option>
+        {/* <option value='zh'>简体中文</option>
+        <option value='ko'>한국어</option> */}
         {/* Add more options for other languages if needed */}
       </select>
     </div>

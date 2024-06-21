@@ -15,8 +15,8 @@
     "subhead": "Énekes / Festő",
     "name": "Kamarás",
     "fname": "Máté",
-    "desc": "Magyarországon született, és híressé vált 'der Tod' szerepének eljátszásával az Elisabeth című musicalben. A musical sikere egy DVD kiadásához vezetett, amely megörökítette az előadásukat. Most csatlakozz hozzá, ahogy továbbra is elbűvöli a közönséget varázslatos hangjával és mágneses színpadi jelenlétével.",
-    "news": "Mi az új?",
+    "desc": "Magyarországon született, és híressé vált 'der Tod' szerepének eljátszásával az Elisabeth című musicalben. A musical sikere egy DVD kiadásához vezetett, amely megörökítette az előadásukat. Most csatlakozz hozzá, ahogy továbbra is elbűvöli a közönséget varázslatos hangjával és színpadi jelenlétével.",
+    "news": "Hírek",
     "pop-up-button-msg": "Jegyek"
   },
 
@@ -24,12 +24,12 @@
     {
       "imgUrl": "images.awards1",
       "title": "Elisabeth DVD - Kétszeres Platina",
-      "subtitle": "mint 'Der Tod' - 10. évfordulós szereposztás."
+      "subtitle": "'a Halál' - 10. évfordulós szereposztás."
     },
     {
       "imgUrl": "images.awards3",
       "title": "Jószolgálati Nagykövet",
-      "subtitle": "Átvette a 'V4+Japán' Kulturális Csereévért 2014-ben"
+      "subtitle": "a 'V4+Japán' Kulturális Csereévèben "
     },
     {
       "imgUrl": "images.awards2",
@@ -39,17 +39,17 @@
     {
       "imgUrl": "images.awards4",
       "title": "Elisabeth CD - Kétszeres Arany",
-      "subtitle": "mint 'Der Tod' - 10. évfordulós szereposztás."
+      "subtitle": "'a Halál' - 10. évfordulós szereposztás."
     }
   ],
-  
-    "awardsTitle": {
-      "subhead": "Díjak és Elismertségek",
-      "title": "Köszönöm"
-    },
-  
+
+  "awardsTitle": {
+    "subhead": "Díjak és Elismerések",
+    "title": "Köszönöm"
+  },
+
   "matesword": {
-    "subhead": "Máté Szava",
+    "subhead": "Máté Gondolatai",
     "title": "Amiben Hiszek",
     "textA": "Szerencsésnek tartom magam, hogy énekesként dolgozhatok.",
     "textB": "Korai éveimtől kezdve a színpad volt az álmom, és kemény munkával és elkötelezettséggel életre keltettem különböző karaktereket, mint der Tod, Tony, Jean Valjean, Nick és még sok más. Utam Magyarországról Bécsbe, majd Japánba vezetett. Amikor elkezdtem a karrieremet, sosem gondoltam volna, hogy németül, angolul és még japánul is fogok énekelni. Magyarország mellett Bécs és Tokió második otthonommá vált. Hálás vagyok a karrierem nyújtotta lehetőségekért, és megtanultam, hogy az élet tele van hullámhegyekkel és hullámvölgyekkel, szerencsével és katasztrófákkal. Minden pillanat különleges, és igyekszem mindegyiket megbecsülni. Minden szerep, amit elvállaltam, annak a bizonyítéka, hogy milyen elhivatottsággal és szenvedéllyel végzem a munkámat. A siker eléréséhez kitartásra és arra van szükség, hogy soha ne adjuk fel az álmainkat. Ez az, amiben hiszek."
