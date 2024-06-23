@@ -15,7 +15,7 @@ function Newsletter() {
   return (
     <div className='newsletter__bg'>
       {i18n.language === 'jp' ? (
-        <iframe
+        /* <iframe
           className='newsletter_benchmark '
           src='https://lb.benchmarkemail.com//listbuilder/signupnew?IkfHTmyPVq8ExA%252BokvlMGf5pwVnAjsSIUE7VbfaZsOztO5iNRn8gS8X4lBTFzgEtozrTjFZYUg4%253D'
           title='Benchmark Email Subscribe Form'
@@ -28,7 +28,14 @@ function Newsletter() {
             width: '100%',
             maxWidth: '500px',
           }}
-        ></iframe>
+        ></iframe> */
+        <h1 className='h1__cormorant'>
+          <button className='newsletter__button'>
+            <a href='https://l.instagram.com/?u=https%3A%2F%2Fforms.gle%2Fk5LMPM9np4ZCfekg6&e=AT3IlMHrHk8blDQuPgzdoV33SEWp89U9JHagADVMZWj5DrxItYM9pUSea25QqpUot3NgaZXi8cjDbv5c4H7oGEY733VCMQknHMcdmXVqZzl8-jlS'>
+              -- CLICK HERE --
+            </a>
+          </button>
+        </h1>
       ) : (
         <iframe
           className='newsletter_benchmark'
@@ -40,7 +47,6 @@ function Newsletter() {
           frameBorder='0'
         ></iframe>
       )}
-
       <div className='newsletter-loading'>
         <h1 className='h1__cormorant'>Loading...</h1>
       </div>
