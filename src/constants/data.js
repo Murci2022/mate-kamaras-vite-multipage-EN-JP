@@ -207,23 +207,19 @@ const works = [
 const awards = [
   {
     imgUrl: images.awards1,
-    title: 'Elisabeth DVD - Double Platinium',
-    subtitle: 'as "Der Tod" - 10th Anniversary Cast.',
+    title: 'elisabethDvd',
   },
   {
     imgUrl: images.awards3,
-    title: 'Goodwill Ambassodor',
-    subtitle: 'Received for the "V4+Japan" Cultural Exchange Year in 2014',
+    title: 'goodwill',
   },
   {
     imgUrl: images.awards2,
-    title: 'Mùzsa Price',
-    subtitle: 'His Hometown, Miskolc honered his achivement.',
+    title: 'muzsa',
   },
   {
     imgUrl: images.awards4,
-    title: 'Elisabeth CD - Double Gold',
-    subtitle: 'as "Der Tod" - 10th Anniversary Cast.',
+    title: 'elisabethCd',
   },
 ];
 

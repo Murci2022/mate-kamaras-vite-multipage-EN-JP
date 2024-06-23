@@ -19,29 +19,24 @@
     "pop-up-button-msg": "Tickets"
   },
 
-  "awards": [
-    {
-      "imgUrl": "images.awards1",
+  "awards": {
+    "elisabethCd": {
       "title": "Elisabeth DVD - Double Platinium",
       "subtitle": "'Der Tod' - 10th Anniversary Cast."
     },
-    {
-      "imgUrl": "images.awards3",
+    "goodwill": {
       "title": "Goodwill Ambassodor",
       "subtitle": "Received for the 'V4+Japan' Cultural Exchange Year in 2014"
     },
-    {
-      "imgUrl": "images.awards2",
+    "muzsa": {
       "title": "Mùzsa Price",
       "subtitle": "His Hometown, Miskolc honored his achievement."
     },
-    {
-      "imgUrl": "images.awards4",
+    "elisabethDvd": {
       "title": "Elisabeth CD - Double Gold",
       "subtitle": "'Der Tod' - 10th Anniversary Cast."
     }
-  ],
-
+  },
   "awardsTitle": {
     "subhead": "Awards & Honors",
     "title": "Thank You"

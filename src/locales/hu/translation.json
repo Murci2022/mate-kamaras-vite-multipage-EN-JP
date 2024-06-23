@@ -20,28 +20,24 @@
     "pop-up-button-msg": "Jegyek"
   },
 
-  "awards": [
-    {
-      "imgUrl": "images.awards1",
+  "awards": {
+    "elisabethCd": {
       "title": "Elisabeth DVD - Kétszeres Platina",
-      "subtitle": "'a Halál' - 10. évfordulós szereposztás."
+      "subtitle": "'a Halál' - 10. évfordulós szereposztás"
     },
-    {
-      "imgUrl": "images.awards3",
+    "goodwill": {
       "title": "Jószolgálati Nagykövet",
-      "subtitle": "a 'V4+Japán' Kulturális Csereévèben "
+      "subtitle": "a 'V4+Japán' Kulturális Csereévèben"
     },
-    {
-      "imgUrl": "images.awards2",
+    "muzsa": {
       "title": "Múzsa Díj",
       "subtitle": "Szülővárosa, Miskolc tisztelte meg elismerésével."
     },
-    {
-      "imgUrl": "images.awards4",
+    "elisabethDvd": {
       "title": "Elisabeth CD - Kétszeres Arany",
       "subtitle": "'a Halál' - 10. évfordulós szereposztás."
     }
-  ],
+  },
 
   "awardsTitle": {
     "subhead": "Díjak és Elismerések",
