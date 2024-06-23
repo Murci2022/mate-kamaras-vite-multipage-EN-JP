@@ -146,7 +146,7 @@
 .p__opensans {
   font-family: var(--font-alt);
   color: var(--color-white);
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.04em;
   /* text-transform: capitalize; */
   line-height: 28px;
@@ -266,6 +266,7 @@
 
   .p__opensans {
     font-size: 14px;
+    line-height: 20px;
   }
   .section__padding {
     padding: 2rem;
