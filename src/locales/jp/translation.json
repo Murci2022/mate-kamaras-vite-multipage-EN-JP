@@ -14,7 +14,7 @@
     "subhead": "singer / painter",
     "name": "Mate ",
     "fname": "Kamaras",
-    "desc": "ハンガリー生まれの彼は、『エリザベート』での「デア・トート」の演技で名声を勝ち取りました。このミュージカルの成功がDVD化され、そのパフォーマンスが永遠に残されました。今、彼とともに、彼の魅力的な声と磁石のような舞台プレゼンスで観客を魅了し続けましょう。",
+    "desc": "彼はハンガリーで生まれ、ミュージカル『エリザベート』で「死」、またはドイツ語で「Der Tod」の役を演じることで最大の成功を収めました。この役をハンガリー語、ドイツ語、日本語の3カ国語で演じた唯一の俳優となり、ウィーンでのミュージカルの成功により、2005年12月にウィーン劇場での公演はDVDとして発売され、その公演が永遠に記録されました。2024年にはエリザベート皇后の居城であったウィーンのホーフブルク宮殿の舞踏会にて、日本とウィーンの架け橋として「最後のダンス」と「私が踊る時」を披露し、国境を越えてその妖艶な歌声と圧倒的な存在感、チャーミングな魅力で観客を魅了し続けています。",
     "news": "ニュース",
     "pop-up-button-msg": "チケット "
   },
@@ -51,10 +51,177 @@
     "textB": "幼少期から舞台が私の夢であり、努力と献身によって、私はder Tod、Tony、Jean Valjean、Nickなどのさまざまなキャラクターを生み出しました。私の旅は、ハンガリーからウィーン、そして日本へと続きました。キャリアを始めたとき、ドイツ語、英語、さらには日本語で歌うことなど想像もしていませんでした。ハンガリーに加えて、ウィーンと東京は私の第二の故郷となりました。キャリアが提供してくれた機会に感謝し、人生は幸運と災難、上昇と下降の混合物であることを学びました。すべての瞬間は特別であり、私はそれぞれを大切にしようと努めています。私が引き受けた役割は、私が職人技にもたらす献身と情熱の証です。成功を収めるには、粘り強さと夢を諦めない不屈の決意が必要です。それが私の信念です。"
   },
 
+  "aboutTitle": {
+    "subhead": "役 & コンサート",
+    "title": "マテのキャリア"
+  },
+
   "newsletter": {
     "lng": "jp"
   },
   "footer": {
     "contact": "okuyama@kyodofactory.jp"
+  },
+  "about": {
+    "JuristenballWien": {
+      "production": "Juristenball Wien",
+      "where": "オーストリア || ウィーン"
+    },
+    "ShizukiAsatoDinnerShow": {
+      "production": "Shizuki Asato Dinner Show",
+      "where": "日本 || 東京"
+    },
+    "MadeInJapan": {
+      "production": "Made In Japan",
+      "where": "オーストリア || ウィーナー・ノイシュタット"
+    },
+    "HungarianEmbassyConcerts": {
+      "production": "ハンガリー大使館コンサート",
+      "where": "日本 || 東京"
+    },
+    "ThinkOfMeConcert": {
+      "production": "Think Of Me Concert",
+      "where": "日本 || 東京"
+    },
+    "MusicalAndMiskolcGala": {
+      "production": "Musical and Miskolc Gala",
+      "where": "ハンガリー || ミシュコルツ"
+    },
+    "AkikoNakajimaAndFriends": {
+      "production": "Akiko Nakajima and Friends",
+      "where": "日本 || 東京"
+    },
+    "SoundOfMusicConcert": {
+      "production": "Sound Of Music Concert",
+      "where": "ドイツ"
+    },
+    "MayasMagicMoments": {
+      "production": "Maya’s Magic Moments",
+      "where": "オーストリア || ウィーン"
+    },
+    "MusicalAndMiskolcConcert": {
+      "production": "Musical and Miskolc Gala",
+      "where": "ハンガリー || ミシュコルツ"
+    },
+    "TheCinemaMusicalConcert": {
+      "production": "The Cinema Musical Concert",
+      "where": "日本 || 東京"
+    },
+    "AsatoMateKanataSpecialLive": {
+      "production": "Asato-Mate-Kanata Special Live",
+      "where": "日本 || 東京"
+    },
+    "ElisabethDerTod": {
+      "production": "ELISABETH / der TOD",
+      "where": "ドイツ || オーストリア"
+    },
+    "GoldenSongsConcertTour": {
+      "production": "Golden Songs Concert Tour",
+      "where": "日本 || 東京"
+    },
+    "MKFutureDocumentationTour": {
+      "production": "MK Future Documentation Tour",
+      "where": "日本 || 東京"
+    },
+    "ChessInConcertArbiter": {
+      "production": "CHESS in Concert / Arbiter",
+      "where": "日本 || 東京"
+    },
+    "MateKamarasSoloLive2013": {
+      "production": "Mate Kamaras Solo Live",
+      "where": "日本 || 東京"
+    },
+    "ElisabethDerTodViennaCast": {
+      "production": "ELISABETH / der TOD (Vienna cast)",
+      "where": "日本 || 東京"
+    },
+    "ElisabethDerTodJapaneseCast": {
+      "production": "ELISABETH / der TOD (Japanese cast)",
+      "where": "日本 || 東京"
+    },
+    "MitsukoHeinrichJapaneseCast": {
+      "production": "MITSUKO / Heinrich (Japanese cast)",
+      "where": "日本 || 東京"
+    },
+    "MateKamarasSoloLive2010": {
+      "production": "Mate Kamaras Solo Live",
+      "where": "日本 || 東京"
+    },
+    "LuluJack": {
+      "production": "LULU / Jack",
+      "where": "オーストリア || ウィーン"
+    },
+    "SuperLiveVol2LoveLegend": {
+      "production": "Super Live Vol.2 LOVE LEGEND",
+      "where": "日本 || 東京"
+    },
+    "WienerMusicalgalaSoloist": {
+      "production": "WIENER MUSICALGALA / Soloist",
+      "where": "日本 || 東京"
+    },
+    "SuperLifeTourMate": {
+      "production": "SUPER LIFE TOUR MATÉ!",
+      "where": "日本 || 東京"
+    },
+    "ElisabethDerTodViennaCast2007": {
+      "production": "ELISABETH / der TOD (Vienna Cast)",
+      "where": "日本 || 東京"
+    },
+    "ElisabethDerTod2003": {
+      "production": "ELISABETH / der TOD",
+      "where": "オーストリア || ウィーン"
+    },
+    "FireOfDanceSolist": {
+      "production": "FIRE OF DANCE / Solist",
+      "where": "ヨーロッパ || 各地"
+    },
+    "WebberGalaSolist": {
+      "production": "Webber Gala/ Solist",
+      "where": "ヨーロッパ || 各地"
+    },
+    "ElizabethHalal": {
+      "production": "ELIZABETH / Halál",
+      "where": "ハンガリー || ブダペスト"
+    },
+    "WestSideStoryTony": {
+      "production": "West Side Story / Tony",
+      "where": "ハンガリー || セゲド"
+    },
+    "ChessTheAmerican": {
+      "production": "CHESS / the American",
+      "where": "ノルウェー || オスロ"
+    },
+    "FalcoCyberShowAmadeus": {
+      "production": "FALCO CYBER SHOW/ Amadeus",
+      "where": "オーストリア || ウィーン"
+    },
+    "TanzDerVampireHerbert": {
+      "production": "TANZ DER VAMPIRE / Herbert",
+      "where": "オーストリア || ウィーン"
+    },
+    "AttilaIstenKardjaCsaba": {
+      "production": "Attila Isten Kardja / Csaba",
+      "where": "ハンガリー || セゲド"
+    },
+    "RockItTenor": {
+      "production": "Rock It! / Tenor",
+      "where": "オーストリア || ツェル・アム・ゼー"
+    },
+    "TanzDerVampireTenorSolo": {
+      "production": "TANZ DER VAMPIRE / Tenor Solo",
+      "where": "オーストリア || ウィーン"
+    },
+    "FameNick": {
+      "production": "FAME / Nick",
+      "where": "ハンガリー || ブダペスト"
+    },
+    "BarbarokElke": {
+      "production": "Barbarok / Elke",
+      "where": "ハンガリー || ミシュコルツ"
+    },
+    "LesMiserableJeanValjean": {
+      "production": "Les Miserable / Jean Valjean",
+      "where": "ハンガリー || ミシュコルツ"
+    }
   }
 }

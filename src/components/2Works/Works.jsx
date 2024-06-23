@@ -1,36 +1,41 @@
 import './Works.css';
 import PropTypes from 'prop-types';
-const Works = ({ production, when, where }) => (
-  <div className='works_item_article'>
-    <div className='works_item-head'>
-      <div className='works_item-name'>
-        <p
-          className='p__cormorant'
-          style={{ color: '#DCCA87' }}
-        >
-          {production}
-        </p>
+import { useTranslation } from 'react-i18next';
+
+const Works = ({ title, when }) => {
+  const { t } = useTranslation();
+  return (
+    <div className='works_item_article'>
+      <div className='works_item-head'>
+        <div className='works_item-name'>
+          <p
+            className='p__cormorant'
+            style={{ color: '#DCCA87' }}
+          >
+            {t(`about.${title}.production`, { defaultValue: title })}
+          </p>
+        </div>
+        <div className='works_item-dash' />
+        <div className='works_item-price'>
+          <p
+            className='p__cormorant'
+            style={{ color: '#DCCA87' }}
+          >
+            {when}
+          </p>
+        </div>
       </div>
-      <div className='works_item-dash' />
-      <div className='works_item-price'>
+      <div className='worksmenu-sub'>
         <p
-          className='p__cormorant'
-          style={{ color: '#DCCA87' }}
+          className='p__opensans'
+          style={{ color: '#AAA' }}
         >
-          {when}
+          {t(`about.${title}.where`, { defaultValue: title })}
         </p>
       </div>
     </div>
-    <div className='worksmenu-sub'>
-      <p
-        className='p__opensans'
-        style={{ color: '#AAA' }}
-      >
-        {where}
-      </p>
-    </div>
-  </div>
-);
+  );
+};
 
 export default Works;
 

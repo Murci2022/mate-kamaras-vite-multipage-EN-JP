@@ -7,7 +7,7 @@
 /* POP-UP start------------------- */
 
 .hero__pop-up {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 
   display: none;
   text-align: center;

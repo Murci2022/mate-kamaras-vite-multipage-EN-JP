@@ -5,32 +5,22 @@ import { GiCancel, GiHamburgerMenu } from 'react-icons/gi';
 import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 import LanguageSelector from './LanguageSelector'; // Importing the LanguageSelector component
 import './Navbar.css';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [toggleMenu, setToggleMenu] = useState(false);
-  const [activeLanguage, setActiveLanguage] = useState('this is default');
-
-  const url = new URL(window.location.href);
-  const path = url.pathname; // Gets the pathname, e.g., "/about"
-  const lastPart = path.substring(path.lastIndexOf('/')); // Extracts the last part after the last "/"
-  console.log(lastPart, 'lastPart');
-  console.log(i18n.language, '????');
-  const selectedLanguage = i18n.language;
-  console.log(selectedLanguage);
-  const lang = i18n.language;
-  console.warn(lang, 'lang');
 
   const handleLanguageChange = (lang) => {
-    console.log(lang, 'lang');
     i18n.changeLanguage(lang);
   };
 
-  const handleLinkClick = () => {};
+  const handleLinkClick = () => {
+    setToggleMenu(false);
+  };
 
   return (
-    <nav className=' navbar'>
+    <nav className='navbar'>
       <div className='nav__icons-wrapper'>
         <div className='nav__icons'>
           <a href='https://www.facebook.com/matekamarasofficial/'>
@@ -39,9 +29,6 @@ const Navbar = () => {
           <a href='https://www.youtube.com/watch?v=0Us6LXhvnyM'>
             <FaYoutube />
           </a>
-          {/*  <a href='#'>
-            <FaYoutube />
-          </a> */}
           <a href='https://www.instagram.com/matekamaras/'>
             <FaInstagram />
           </a>
@@ -49,51 +36,48 @@ const Navbar = () => {
       </div>
 
       <ul className='navbar-links'>
-        <li className='p__cormorant-gold '>
-          <Link
+        <li className='p__cormorant-gold'>
+          <NavLink
             to='/'
-            className={
-              lastPart === '/' || lastPart === '/home' ? 'nav-links-active' : ''
-            }
+            className={({ isActive }) => (isActive ? 'nav-links-active' : '')}
+            onClick={handleLinkClick}
           >
             {t('nav.home')}
-          </Link>
+          </NavLink>
         </li>
         <li className='p__cormorant-gold horizontal-align'>
-          <Link
+          <NavLink
             to='/about'
-            onClick={() => handleLinkClick('/about')}
-            className={lastPart === '/about' ? 'nav-links-active' : ''}
+            className={({ isActive }) => (isActive ? 'nav-links-active' : '')}
+            onClick={handleLinkClick}
           >
             {t('nav.about')}
-          </Link>
+          </NavLink>
         </li>
         <li className='p__cormorant-gold horizontal-align'>
-          <Link
+          <NavLink
             to='/newsletter'
-            className={`${
-              lastPart === '/newsletter' ? 'nav-links-active' : ''
-            }`}
+            className={({ isActive }) => (isActive ? 'nav-links-active' : '')}
+            onClick={handleLinkClick}
           >
             {t('nav.newsletter')}
-          </Link>
+          </NavLink>
           <img
             style={{ width: '16px', height: '16px', marginLeft: '5px' }}
             src={
-              lang === 'en'
+              i18n.language === 'en'
                 ? images.en
-                : lang === 'jp'
+                : i18n.language === 'jp'
                 ? images.jp
-                : lang === 'zh'
+                : i18n.language === 'zh'
                 ? images.zh
-                : lang === 'ko'
+                : i18n.language === 'ko'
                 ? images.ko
-                : lang === 'hu'
+                : i18n.language === 'hu'
                 ? images.hu
                 : images.en // optional default case
             }
-            /* src={lang === 'en' ? images.en : images.jp} */
-            alt='english flag'
+            alt='language flag'
           />
         </li>
         <li className='p__cormorant-gold'>
@@ -115,61 +99,70 @@ const Navbar = () => {
         />
 
         {toggleMenu && (
-          <div className=' navbar-smallscreen_overlay flex__center slide-bottom'>
+          <div className='navbar-smallscreen_overlay flex__center slide-bottom'>
             <GiCancel
               fontSize={12}
               onClick={() => setToggleMenu(false)}
               className='nav__overlay-close'
             />
-            <ul className=' navbar-smallscreen-links'>
-              <li className='p__cormorant-gold '>
-                <Link
+            <ul className='navbar-smallscreen-links'>
+              <li className='p__cormorant-gold'>
+                <NavLink
                   to='/'
-                  className={
-                    lastPart === '/' || lastPart === '/home'
-                      ? 'nav-links-active'
-                      : ''
+                  className={({ isActive }) =>
+                    isActive ? 'nav-links-active' : ''
                   }
+                  onClick={() => {
+                    setToggleMenu(false);
+                  }}
                 >
                   {t('nav.home')}
-                </Link>
+                </NavLink>
               </li>
               <li className='p__cormorant-gold'>
-                <Link
+                <NavLink
                   to='/about'
-                  onClick={() => handleLinkClick('/about')}
-                  className={lastPart === '/about' ? 'nav-links-active' : ''}
+                  className={({ isActive }) =>
+                    isActive ? 'nav-links-active' : ''
+                  }
+                  onClick={handleLinkClick}
                 >
                   {t('nav.about')}
-                </Link>
+                </NavLink>
               </li>
               <li className='p__cormorant-gold'>
                 <NavLink
                   to='/newsletter'
                   className={({ isActive }) =>
                     isActive
-                      ? 'nav-links-active horizontal-align '
-                      : 'horizontal-align '
+                      ? 'nav-links-active horizontal-align'
+                      : 'horizontal-align'
                   }
-                  /*  className={`horizontal-align ${
-                    lastPart === '/newsletter' ? 'nav-links-active' : ''
-                  }`} */
+                  onClick={handleLinkClick}
                 >
                   {t('nav.newsletter')}
                   <img
                     style={{ width: '12px', height: '12px' }}
-                    src={lang === 'en' ? images.en : images.jp}
-                    alt='english flag'
+                    src={i18n.language === 'en' ? images.en : images.jp}
+                    alt='language flag'
                   />
                 </NavLink>
               </li>
               <li className='p__cormorant-gold'>
-                <a href='https://www.thalia.de/shop/home/artikeldetails/A1060427891?ProvID=11000533&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3bdxXq_HLusx1XHNKRq8UGIVJOuT9n5WAQxkKwodiqYgy4s4dsJmRoCvd0QAvD_BwE'>
+                <a
+                  href='https://www.thalia.de/shop/home/artikeldetails/A1060427891?ProvID=11000533&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3bdxXq_HLusx1XHNKRq8UGIVJOuT9n5WAQxkKwodiqYgy4s4dsJmRoCvd0QAvD_BwE'
+                  onClick={handleLinkClick}
+                >
                   {t('nav.shop')}
                 </a>
               </li>
               <li className='p__cormorant-gold'>
-                <a href='https://www.matekamaras.com/'>{t('nav.paintings')}</a>
+                <a
+                  href='https://www.matekamaras.com/'
+                  onClick={handleLinkClick}
+                >
+                  {t('nav.paintings')}
+                </a>
               </li>
             </ul>
           </div>
@@ -180,7 +173,7 @@ const Navbar = () => {
       <div className='navbar-language-selector'>
         <LanguageSelector
           onChange={handleLanguageChange}
-          selectedLanguage={selectedLanguage}
+          selectedLanguage={i18n.language}
         />
       </div>
     </nav>
