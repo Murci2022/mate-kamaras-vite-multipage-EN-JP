@@ -15,14 +15,14 @@
 }
 
 .matesword_longcontent {
-  margin-top: 15px;
+  margin: 15px 0;
   position: relative; /* Ensure relative positioning for pseudo-elements */
 }
 .matesword_longcontent-scroll {
-  max-height: 150px;
+  max-height: 180px;
   overflow: hidden;
   overflow-y: scroll;
-  padding: 20px;
+  padding: 5px 20px;
 }
 
 .matesword_longcontent::before,

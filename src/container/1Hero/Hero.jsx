@@ -60,17 +60,25 @@ const Header = () => {
 
           <h1 className='hero-h1'>{t('hero.name')}</h1>
           <h1 className='hero-h1'>{t('hero.fname')}</h1>
-          <div style={{ textAlign: 'justify' }}>
+          {/* <div style={{ textAlign: 'justify' }}>
             <p
               className='p__opensans'
               style={{ margin: '1rem 0 2rem 0' }}
             >
               {t('hero.desc')}
             </p>
+          </div> */}
+          <div className='matesword-card'>
+            <div className='matesword_longcontent'>
+              <div className='matesword_longcontent-scroll'>
+                <p className='p__opensans-grey'>{t('hero.desc')}</p>
+              </div>
+            </div>
           </div>
           <button
             type='button'
             className='custom__button'
+            style={{ marginTop: '1rem' }}
             onClick={() => setIsShown(!isShown)}
           >
             {t('hero.news')}
