@@ -56,9 +56,14 @@ const Navbar = () => {
         </li>
         <li className='p__cormorant-gold horizontal-align'>
           <NavLink
-            to='/newsletter'
+            to={
+              i18n.language === 'jp'
+                ? 'https://l.instagram.com/?u=https%3A%2F%2Fforms.gle%2Fk5LMPM9np4ZCfekg6&e=AT3IlMHrHk8blDQuPgzdoV33SEWp89U9JHagADVMZWj5DrxItYM9pUSea25QqpUot3NgaZXi8cjDbv5c4H7oGEY733VCMQknHMcdmXVqZzl8-jlS'
+                : '/newsletter'
+            }
             className={({ isActive }) => (isActive ? 'nav-links-active' : '')}
             onClick={handleLinkClick}
+            target={i18n.language === 'jp' ? '_blank' : '_self'} // Open in new tab if Japanese
           >
             {t('nav.newsletter')}
           </NavLink>

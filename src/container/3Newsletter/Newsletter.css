@@ -7,6 +7,34 @@
   min-height: calc(100vh + 100px);
 }
 
+.newsletter__button {
+  position: absolute;
+  width: 420px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  background-color: var(--color-black);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 20px;
+  padding: 0.5rem 3rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  background-color: var(--color-black);
+}
+.newsletter__button a {
+  font-size: 40px;
+}
+
 .zindex  {
   z-index: 10;
 }
