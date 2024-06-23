@@ -60,12 +60,14 @@ const Header = () => {
 
           <h1 className='hero-h1'>{t('hero.name')}</h1>
           <h1 className='hero-h1'>{t('hero.fname')}</h1>
-          <p
-            className='p__opensans'
-            style={{ margin: '2rem 0' }}
-          >
-            {t('hero.desc')}
-          </p>
+          <div style={{ textAlign: 'justify' }}>
+            <p
+              className='p__opensans'
+              style={{ margin: '1rem 0 2rem 0' }}
+            >
+              {t('hero.desc')}
+            </p>
+          </div>
           <button
             type='button'
             className='custom__button'
