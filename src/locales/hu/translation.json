@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Főoldal",
-    "about": "Rólunk",
+    "about": "Róla",
     "shop": "Bolt",
     "contact": "Kapcsolat",
     "newsletter": "Hírlevél",
@@ -12,10 +12,10 @@
   },
 
   "hero": {
-    "subhead": "Énekes / Festő",
+    "subhead": "Énekes",
     "name": "Kamarás",
     "fname": "Máté",
-    "desc": "Magyarországon született, és híressé vált 'der Tod' szerepének eljátszásával az Elisabeth című musicalben. A musical sikere egy DVD kiadásához vezetett, amely megörökítette az előadásukat. Most csatlakozz hozzá, ahogy továbbra is elbűvöli a közönséget varázslatos hangjával és színpadi jelenlétével.",
+    "desc": "Magyarországon született, és a legnagyobb sikerét az 'Elisabeth' című musicalben a 'Halál', németül 'Der Tod' szerepének eljátszásával érte el. Ő lett az egyetlen színész, aki ezt a szerepet három nyelven, magyarul, németül és japánul is eljátszotta. A musical bécsi sikere révén 2005 decemberében DVD formájában jelent meg az előadás, amelyet a bécsi Theater an der Wien színpadán örökítettek meg. 2024-ben az egykori császárnő, Erzsébet rezidenciájában, a bécsi Hofburg palotában előadta a 'Végső Tánc' és a 'Hogyha Kell Egy Tánc' című dalokat, kulturális hidat képezve Japán és Bécs között. Továbbra is határokon átívelve bűvöli el a közönséget hangjával és színpadi megjelenésével.",
     "news": "Hírek",
     "pop-up-button-msg": "Jegyek"
   },
@@ -48,7 +48,12 @@
     "subhead": "Máté Gondolatai",
     "title": "Amiben Hiszek",
     "textA": "Szerencsésnek tartom magam, hogy énekesként dolgozhatok.",
-    "textB": "Korai éveimtől kezdve a színpad volt az álmom, és kemény munkával és elkötelezettséggel életre keltettem különböző karaktereket, mint der Tod, Tony, Jean Valjean, Nick és még sok más. Utam Magyarországról Bécsbe, majd Japánba vezetett. Amikor elkezdtem a karrieremet, sosem gondoltam volna, hogy németül, angolul és még japánul is fogok énekelni. Magyarország mellett Bécs és Tokió második otthonommá vált. Hálás vagyok a karrierem nyújtotta lehetőségekért, és megtanultam, hogy az élet tele van hullámhegyekkel és hullámvölgyekkel, szerencsével és katasztrófákkal. Minden pillanat különleges, és igyekszem mindegyiket megbecsülni. Minden szerep, amit elvállaltam, annak a bizonyítéka, hogy milyen elhivatottsággal és szenvedéllyel végzem a munkámat. A siker eléréséhez kitartásra és arra van szükség, hogy soha ne adjuk fel az álmainkat. Ez az, amiben hiszek."
+    "textB": "Korai éveimtől kezdve a színpad volt az álmom. Kemény munkával és elkötelezettséggel életre keltettem különböző karaktereket, mint a 'der Tod', 'Tony', 'Jean Valjean', 'Nick' és még sok más csodás szerep. Utam Magyarországról Bécsbe, majd Japánba vezetett. Amikor elkezdtem a karrieremet, sosem gondoltam volna, hogy németül, angolul sőt még japánul is fogok énekelni. Magyarország mellett Bécs és Tokió második otthonommá vált.Hálás vagyok a karrierem nyújtotta lehetőségekért, bár megtanultam, hogy az élet tele van magasságokkal és mélységekkel, szerencsével és balszerencsével. Minden pillanat különleges, és igyekszem mindegyiket megbecsülni. Minden szerep, amit elvállaltam, annak a bizonyítéka, hogy ez a szakma szenvedére és elhivatottságra épül. A siker eléréséhez kitartásra és arra van szükség, hogy az ember soha ne adja fel az álmait. Ez az, amiben hiszek."
+  },
+
+  "aboutTitle": {
+    "subhead": "szerepek & koncertek",
+    "title": "Máté Munkái"
   },
 
   "newsletter": {
@@ -56,5 +61,167 @@
   },
   "footer": {
     "contact": "management@matekamaras.com"
+  },
+  "about": {
+    "JuristenballWien": {
+      "production": "Juristenball Wien",
+      "where": "Ausztria || Bécs"
+    },
+    "ShizukiAsatoDinnerShow": {
+      "production": "Shizuki Asato Dinner Show",
+      "where": "Japán || Tokió"
+    },
+    "MadeInJapan": {
+      "production": "Made In Japan",
+      "where": "Ausztria || Wiener Neustadt"
+    },
+    "HungarianEmbassyConcerts": {
+      "production": "Tokioi Magyar Nagykövetség",
+      "where": "Japán || Tokió"
+    },
+    "ThinkOfMeConcert": {
+      "production": "Think Of Me Concert",
+      "where": "Japán || Tokió"
+    },
+    "MusicalAndMiskolcGala": {
+      "production": "Musical és Miskolc Gála",
+      "where": "Magyarország || Miskolc"
+    },
+    "AkikoNakajimaAndFriends": {
+      "production": "Akiko Nakajima and Friends",
+      "where": "Japán || Tokió"
+    },
+    "SoundOfMusicConcert": {
+      "production": "Sound Of Music Concert",
+      "where": "Németország"
+    },
+    "MayasMagicMoments": {
+      "production": "Maya’s Magic Moments",
+      "where": "Ausztria || Bécs"
+    },
+    "MusicalAndMiskolcConcert": {
+      "production": "Musical és Miskolc Gála",
+      "where": "Magyarország || Miskolc"
+    },
+    "TheCinemaMusicalConcert": {
+      "production": "The Cinema Musical Concert",
+      "where": "Japán || Tokió"
+    },
+    "AsatoMateKanataSpecialLive": {
+      "production": "Asato-Mate-Kanata Special Live",
+      "where": "Japán || Tokió"
+    },
+    "ElisabethDerTod": {
+      "production": "ELISABETH / der TOD",
+      "where": "Németország || Ausztria"
+    },
+    "GoldenSongsConcertTour": {
+      "production": "Golden Songs Concert Tour",
+      "where": "Japán || Tokió"
+    },
+    "MKFutureDocumentationTour": {
+      "production": "MK Future Documentation Tour",
+      "where": "Japán || Tokió"
+    },
+    "ChessInConcertArbiter": {
+      "production": "CHESS in Concert / Arbiter",
+      "where": "Japán || Tokió"
+    },
+    "MateKamarasSoloLive2013": {
+      "production": "Mate Kamaras Solo Live",
+      "where": "Japán || Tokió"
+    },
+    "ElisabethDerTodViennaCast": {
+      "production": "ELISABETH / der TOD (Vienna cast)",
+      "where": "Japán || Tokió"
+    },
+    "ElisabethDerTodJapaneseCast": {
+      "production": "ELISABETH / der TOD (Japanese cast)",
+      "where": "Japán || Tokió"
+    },
+    "MitsukoHeinrichJapaneseCast": {
+      "production": "MITSUKO / Heinrich (Japanese cast)",
+      "where": "Japán || Tokió"
+    },
+    "MateKamarasSoloLive2010": {
+      "production": "Mate Kamaras Solo Live",
+      "where": "Japán || Tokió"
+    },
+    "LuluJack": {
+      "production": "LULU / Jack",
+      "where": "Ausztria || Bécs"
+    },
+    "SuperLiveVol2LoveLegend": {
+      "production": "Super Live Vol.2 LOVE LEGEND",
+      "where": "Japán || Tokió"
+    },
+    "WienerMusicalgalaSoloist": {
+      "production": "WIENER MUSICALGALA / Soloist",
+      "where": "Japán || Tokió"
+    },
+    "SuperLifeTourMate": {
+      "production": "SUPER LIFE TOUR MATÉ!",
+      "where": "Japán || Tokió"
+    },
+    "ElisabethDerTodViennaCast2007": {
+      "production": "ELISABETH / der TOD (Vienna Cast)",
+      "where": "Japán || Tokió"
+    },
+    "ElisabethDerTod2003": {
+      "production": "ELISABETH / der TOD",
+      "where": "Ausztria || Bécs"
+    },
+    "FireOfDanceSolist": {
+      "production": "FIRE OF DANCE / Solist",
+      "where": "Európa || Különböző helyszínek"
+    },
+    "WebberGalaSolist": {
+      "production": "Webber Gala/ Solist",
+      "where": "Európa || Különböző helyszínek"
+    },
+    "ElizabethHalal": {
+      "production": "ELIZABETH / Halál",
+      "where": "Magyarország || Budapest"
+    },
+    "WestSideStoryTony": {
+      "production": "West Side Story / Tony",
+      "where": "Magyarország || Szeged"
+    },
+    "ChessTheAmerican": {
+      "production": "Chess / the American",
+      "where": "Norvégia || Oslo"
+    },
+    "FalcoCyberShowAmadeus": {
+      "production": "FALCO CYBER SHOW/ Amadeus",
+      "where": "Ausztria || Bécs"
+    },
+    "TanzDerVampireHerbert": {
+      "production": "Vámpírok Bálja / Herbert",
+      "where": "Ausztria || Bécs"
+    },
+    "AttilaIstenKardjaCsaba": {
+      "production": "Attila Isten Kardja / Csaba",
+      "where": "Magyarország || Szeged"
+    },
+    "RockItTenor": {
+      "production": "Rock It! / Tenor",
+      "where": "Ausztria || Zell am See"
+    },
+    "TanzDerVampireTenorSolo": {
+      "production": "Vámpírok Bálja / Tenor Solo",
+      "where": "Ausztria || Bécs"
+    },
+    "FameNick": {
+      "production": "FAME / Nick",
+      "where": "Magyarország || Budapest"
+    },
+    "BarbarokElke": {
+      "production": "Barbárok / Elke",
+      "where": "Magyarország || Miskolc"
+    },
+    "LesMiserableJeanValjean": {
+      "production": "Nyomorultak / Jean Valjean",
+      "where": "Magyarország || Miskolc"
+    }
   }
 }

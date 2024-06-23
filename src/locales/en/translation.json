@@ -11,10 +11,10 @@
     "blog": "blog"
   },
   "hero": {
-    "subhead": "Singer / Painter",
+    "subhead": "Singer",
     "name": "Mate",
     "fname": "Kamaras",
-    "desc": "Borned in Hungary, he rose to fame for his portrayal of 'der Tod' in Elisabeth. The musical's success led to a DVD release, immortalizing their performance. Now, join him as he continues to captivate audiences with his enchanting voice and magnetic stage presence.",
+    "desc": "He was born in Hungary and achieved his greatest success by playing the role of 'Death,' or in German 'Der Tod,' in the musical 'Elisabeth.' He became the only actor to perform this role in three languages: Hungarian, German, and Japanese. The success of the musical in Vienna led to the release of a DVD in December 2005, which immortalized their performance at the Theater an der Wien. In 2024, he performed 'The Last Dance' and 'When I Want to Dance' at the Hofburg Palace in Vienna, the former residence of Empress Elisabeth, acting as a cultural bridge between Japan and Vienna. He continues to captivate audiences across borders with his voice and charming appeal.",
     "news": "what's new?",
     "pop-up-button-msg": "Tickets"
   },
@@ -47,7 +47,12 @@
     "title": "What I Belive",
 
     "textA": "I consider myself fortunate to be able to work as a singer.",
-    "textB": "From my early years, the stage has been my dream, and through hard work and dedication, I've brought to life various characters such as der Tod, Tony, Jean Valjean, Nick, and many more. My journey has taken me from Hungary to Vienna and then to Japan. When I began my career, I never imagined singing in German, English, and even Japanese. Besides Hungary, Vienna, and Tokyo have become my second homes. Grateful for the opportunities my career has provided, I've learned that life is a mix of ups and downs, luck, and disasters. Every moment is special, and I strive to cherish each one. Each role I've undertaken is a testament to the dedication and passion I bring to my craft. Achieving success demands perseverance and an unwavering commitment to never give up on your dreams. That is what I believe."
+    "textB": "From my early years, the stage was my dream. Through hard work and dedication, I brought various characters to life, such as 'der Tod,' 'Tony,' 'Jean Valjean,' 'Nick,' and many other wonderful roles. My journey took me from Hungary to Vienna, and then to Japan. When I started my career, I never imagined that I would sing in German, English, and even Japanese. Besides Hungary, Vienna and Tokyo have become my second homes. I am grateful for the opportunities my career has provided, though I have learned that life is full of highs and lows, luck and misfortune. Every moment is special, and I strive to appreciate each one. Every role I have taken on is a testament to the fact that this profession is built on passion and dedication. To achieve success, one needs perseverance and the determination to never give up on their dreams. This is what I believe in."
+  },
+
+  "aboutTitle": {
+    "subhead": "roles & concerts",
+    "title": "Mate's Career"
   },
 
   "newsletter": {
@@ -55,5 +60,168 @@
   },
   "footer": {
     "contact": "management@matekamaras.com"
+  },
+
+  "about": {
+    "JuristenballWien": {
+      "production": "Juristenball Wien",
+      "where": "Austria || Vienna"
+    },
+    "ShizukiAsatoDinnerShow": {
+      "production": "Shizuki Asato Dinner Show",
+      "where": "Japan || Tokyo"
+    },
+    "MadeInJapan": {
+      "production": "Made In Japan",
+      "where": "Austria || Wiener Neustadt"
+    },
+    "HungarianEmbassyConcerts": {
+      "production": "Hungarian Embassy Concerts",
+      "where": "Japan || Tokyo"
+    },
+    "ThinkOfMeConcert": {
+      "production": "Think Of Me Concert",
+      "where": "Japan || Tokyo"
+    },
+    "MusicalAndMiskolcGala": {
+      "production": "Musical and Miskolc Gala",
+      "where": "Hungary || Miskolc"
+    },
+    "AkikoNakajimaAndFriends": {
+      "production": "Akiko Nakajima and Friends",
+      "where": "Japan || Tokyo"
+    },
+    "SoundOfMusicConcert": {
+      "production": "Sound Of Music Concert",
+      "where": "Germany"
+    },
+    "MayasMagicMoments": {
+      "production": "Maya’s Magic Moments",
+      "where": "Austria || Vienna"
+    },
+    "MusicalAndMiskolcConcert": {
+      "production": "Musical and Miskolc Concert",
+      "where": "Hungary || Miskolc"
+    },
+    "TheCinemaMusicalConcert": {
+      "production": "The Cinema Musical Concert",
+      "where": "Japan || Tokyo"
+    },
+    "AsatoMateKanataSpecialLive": {
+      "production": "Asato-Mate-Kanata Special Live",
+      "where": "Japan || Tokyo"
+    },
+    "ElisabethDerTod": {
+      "production": "ELISABETH / der TOD",
+      "where": "Germany || Austria"
+    },
+    "GoldenSongsConcertTour": {
+      "production": "Golden Songs Concert Tour",
+      "where": "Japan || Tokyo"
+    },
+    "MKFutureDocumentationTour": {
+      "production": "MK Future Documentation Tour",
+      "where": "Japan || Tokyo"
+    },
+    "ChessInConcertArbiter": {
+      "production": "CHESS in Concert / Arbiter",
+      "where": "Japan || Tokyo"
+    },
+    "MateKamarasSoloLive2013": {
+      "production": "Mate Kamaras Solo Live",
+      "where": "Japan || Tokyo"
+    },
+    "ElisabethDerTodViennaCast": {
+      "production": "ELISABETH / der TOD (Vienna cast)",
+      "where": "Japan || Tokyo"
+    },
+    "ElisabethDerTodJapaneseCast": {
+      "production": "ELISABETH / der TOD (Japanese cast)",
+      "where": "Japan || Tokyo"
+    },
+    "MitsukoHeinrichJapaneseCast": {
+      "production": "MITSUKO / Heinrich (Japanese cast)",
+      "where": "Japan || Tokyo"
+    },
+    "MateKamarasSoloLive2010": {
+      "production": "Mate Kamaras Solo Live",
+      "where": "Japan || Tokyo"
+    },
+    "LuluJack": {
+      "production": "LULU / Jack",
+      "where": "Austria || Vienna"
+    },
+    "SuperLiveVol2LoveLegend": {
+      "production": "Super Live Vol.2 LOVE LEGEND",
+      "where": "Japan || Tokyo"
+    },
+    "WienerMusicalgalaSoloist": {
+      "production": "WIENER MUSICALGALA / Soloist",
+      "where": "Japan || Tokyo"
+    },
+    "SuperLifeTourMate": {
+      "production": "SUPER LIFE TOUR MATÉ!",
+      "where": "Japan || Tokyo"
+    },
+    "ElisabethDerTodViennaCast2007": {
+      "production": "ELISABETH / der TOD (Vienna Cast)",
+      "where": "Japan || Tokyo"
+    },
+    "ElisabethDerTod2003": {
+      "production": "ELISABETH / der TOD",
+      "where": "Austria || Vienna"
+    },
+    "FireOfDanceSolist": {
+      "production": "FIRE OF DANCE / Solist",
+      "where": "Europe || Various"
+    },
+    "WebberGalaSolist": {
+      "production": "Webber Gala/ Solist",
+      "where": "Europe || Various"
+    },
+    "ElizabethHalal": {
+      "production": "ELIZABETH / Halál",
+      "where": "Hungary || Budapest"
+    },
+    "WestSideStoryTony": {
+      "production": "West Side Story / Tony",
+      "where": "Hungary || Szeged"
+    },
+    "ChessTheAmerican": {
+      "production": "CHESS / the American",
+      "where": "Norway || Oslo"
+    },
+    "FalcoCyberShowAmadeus": {
+      "production": "FALCO CYBER SHOW/ Amadeus",
+      "where": "Austria || Vienna"
+    },
+    "TanzDerVampireHerbert": {
+      "production": "TANZ DER VAMPIRE / Herbert",
+      "where": "Austria || Vienna"
+    },
+    "AttilaIstenKardjaCsaba": {
+      "production": "Attila Isten Kardja / Csaba",
+      "where": "Hungary || Szeged"
+    },
+    "RockItTenor": {
+      "production": "Rock It! / Tenor",
+      "where": "Austria || Zell am See"
+    },
+    "TanzDerVampireTenorSolo": {
+      "production": "TANZ DER VAMPIRE / Tenor Solo",
+      "where": "Austria || Vienna"
+    },
+    "FameNick": {
+      "production": "FAME / Nick",
+      "where": "Hungary || Budapest"
+    },
+    "BarbarokElke": {
+      "production": "Barbarok / Elke",
+      "where": "Hungary || Miskolc"
+    },
+    "LesMiserableJeanValjean": {
+      "production": "Les Miserable / Jean Valjean",
+      "where": "Hungary || Miskolc"
+    }
   }
 }

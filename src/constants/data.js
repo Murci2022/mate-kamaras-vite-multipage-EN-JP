@@ -1,5 +1,5 @@
 import images from './images';
-
+/* 
 const works = [
   {
     production: 'Juristenball Wien',
@@ -201,6 +201,169 @@ const works = [
     production: 'Les Miserable / Jean Valjean',
     when: '1995',
     where: 'Hungary || Miskolc',
+  },
+]; */
+
+const works = [
+  {
+    title: 'JuristenballWien',
+    when: '2024',
+  },
+  {
+    title: 'ShizukiAsatoDinnerShow',
+    when: '2023',
+  },
+  {
+    title: 'MadeInJapan',
+    when: '2023',
+  },
+  {
+    title: 'HungarianEmbassyConcerts',
+    when: '2023',
+  },
+  {
+    title: 'ThinkOfMeConcert',
+    when: '2023',
+  },
+  {
+    title: 'MusicalAndMiskolcGala',
+    when: '2023',
+  },
+  {
+    title: 'AkikoNakajimaAndFriends',
+    when: '2022',
+  },
+  {
+    title: 'SoundOfMusicConcert',
+    when: '2021',
+  },
+  {
+    title: 'MayasMagicMoments',
+    when: '2020',
+  },
+  {
+    title: 'MusicalAndMiskolcConcert',
+    when: '2017-2019',
+  },
+  {
+    title: 'TheCinemaMusicalConcert',
+    when: '2016',
+  },
+  {
+    title: 'AsatoMateKanataSpecialLive',
+    when: '2016',
+  },
+  {
+    title: 'ElisabethDerTod',
+    when: '2015-2016',
+  },
+  {
+    title: 'GoldenSongsConcertTour',
+    when: '2015',
+  },
+  {
+    title: 'MKFutureDocumentationTour',
+    when: '2014',
+  },
+  {
+    title: 'ChessInConcertArbiter',
+    when: '2013',
+  },
+  {
+    title: 'MateKamarasSoloLive2013',
+    when: '2013',
+  },
+  {
+    title: 'ElisabethDerTodViennaCast',
+    when: '2012',
+  },
+  {
+    title: 'ElisabethDerTodJapaneseCast',
+    when: '2012',
+  },
+  {
+    title: 'MitsukoHeinrichJapaneseCast',
+    when: '2011',
+  },
+  {
+    title: 'MateKamarasSoloLive2010',
+    when: '2010',
+  },
+  {
+    title: 'LuluJack',
+    when: '2010',
+  },
+  {
+    title: 'SuperLiveVol2LoveLegend',
+    when: '2009',
+  },
+  {
+    title: 'WienerMusicalgalaSoloist',
+    when: '2008',
+  },
+  {
+    title: 'SuperLifeTourMate',
+    when: '2007',
+  },
+  {
+    title: 'ElisabethDerTodViennaCast2007',
+    when: '2007',
+  },
+  {
+    title: 'ElisabethDerTod2003',
+    when: '2003-2006',
+  },
+  {
+    title: 'FireOfDanceSolist',
+    when: '2001-2003',
+  },
+  {
+    title: 'WebberGalaSolist',
+    when: '2002',
+  },
+  {
+    title: 'ElizabethHalal',
+    when: '1998-2001',
+  },
+  {
+    title: 'WestSideStoryTony',
+    when: '2001',
+  },
+  {
+    title: 'ChessTheAmerican',
+    when: '2000',
+  },
+  {
+    title: 'FalcoCyberShowAmadeus',
+    when: '2000',
+  },
+  {
+    title: 'TanzDerVampireHerbert',
+    when: '1999-2000',
+  },
+  {
+    title: 'AttilaIstenKardjaCsaba',
+    when: '1999',
+  },
+  {
+    title: 'RockItTenor',
+    when: '1998',
+  },
+  {
+    title: 'TanzDerVampireTenorSolo',
+    when: '1997-1998',
+  },
+  {
+    title: 'FameNick',
+    when: '1996',
+  },
+  {
+    title: 'BarbarokElke',
+    when: '1996',
+  },
+  {
+    title: 'LesMiserableJeanValjean',
+    when: '1995',
   },
 ];
 

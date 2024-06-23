@@ -9,20 +9,20 @@
 }
 
 .app__pop-up-layer {
-  z-index: 10;
+  z-index: 100;
   position: absolute;
   min-height: 100%;
   background-color: gray;
-  top: 100px;
+  top: 0px;
   width: 100%;
 
   background-color: rgba(
-    181,
-    151,
-    151,
-    0.2
+    73,
+    59,
+    59,
+    0.5
   ); /* Adjust the opacity (the last value) as needed */
-  backdrop-filter: blur(4px); /* Adjust the blur radius as needed */
+  backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
 }
 
 .app__border {

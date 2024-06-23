@@ -16,7 +16,7 @@ const Header = () => {
     <>
       <div style={{ height: '100px' }}></div>
       <div className={isShown ? 'app__pop-up-layer' : ''}></div>
-      
+
       <section
         className=' hero__bg app__wrapper margin-top section__padding'
         id='home'
