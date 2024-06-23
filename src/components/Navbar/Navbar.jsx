@@ -5,6 +5,7 @@ import { GiCancel, GiHamburgerMenu } from 'react-icons/gi';
 import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 import LanguageSelector from './LanguageSelector'; // Importing the LanguageSelector component
 import './Navbar.css';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -49,33 +50,33 @@ const Navbar = () => {
 
       <ul className='navbar-links'>
         <li className='p__cormorant-gold '>
-          <a
-            href='/'
+          <Link
+            to='/'
             className={
               lastPart === '/' || lastPart === '/home' ? 'nav-links-active' : ''
             }
           >
             {t('nav.home')}
-          </a>
+          </Link>
         </li>
         <li className='p__cormorant-gold horizontal-align'>
-          <a
-            href='/about'
+          <Link
+            to='/about'
             onClick={() => handleLinkClick('/about')}
             className={lastPart === '/about' ? 'nav-links-active' : ''}
           >
             {t('nav.about')}
-          </a>
+          </Link>
         </li>
         <li className='p__cormorant-gold horizontal-align'>
-          <a
-            href='/newsletter'
+          <Link
+            to='/newsletter'
             className={`${
               lastPart === '/newsletter' ? 'nav-links-active' : ''
             }`}
           >
             {t('nav.newsletter')}
-          </a>
+          </Link>
           <img
             style={{ width: '16px', height: '16px', marginLeft: '5px' }}
             src={
@@ -122,8 +123,8 @@ const Navbar = () => {
             />
             <ul className=' navbar-smallscreen-links'>
               <li className='p__cormorant-gold '>
-                <a
-                  href='/'
+                <Link
+                  to='/'
                   className={
                     lastPart === '/' || lastPart === '/home'
                       ? 'nav-links-active'
@@ -131,23 +132,28 @@ const Navbar = () => {
                   }
                 >
                   {t('nav.home')}
-                </a>
+                </Link>
               </li>
               <li className='p__cormorant-gold'>
-                <a
-                  href='/about'
+                <Link
+                  to='/about'
                   onClick={() => handleLinkClick('/about')}
                   className={lastPart === '/about' ? 'nav-links-active' : ''}
                 >
                   {t('nav.about')}
-                </a>
+                </Link>
               </li>
               <li className='p__cormorant-gold'>
-                <a
-                  href='/newsletter'
-                  className={`horizontal-align ${
+                <NavLink
+                  to='/newsletter'
+                  className={({ isActive }) =>
+                    isActive
+                      ? 'nav-links-active horizontal-align '
+                      : 'horizontal-align '
+                  }
+                  /*  className={`horizontal-align ${
                     lastPart === '/newsletter' ? 'nav-links-active' : ''
-                  }`}
+                  }`} */
                 >
                   {t('nav.newsletter')}
                   <img
@@ -155,7 +161,7 @@ const Navbar = () => {
                     src={lang === 'en' ? images.en : images.jp}
                     alt='english flag'
                   />
-                </a>
+                </NavLink>
               </li>
               <li className='p__cormorant-gold'>
                 <a href='https://www.thalia.de/shop/home/artikeldetails/A1060427891?ProvID=11000533&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3bdxXq_HLusx1XHNKRq8UGIVJOuT9n5WAQxkKwodiqYgy4s4dsJmRoCvd0QAvD_BwE'>

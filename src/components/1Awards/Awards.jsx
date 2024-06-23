@@ -4,9 +4,8 @@ import PropTypes from 'prop-types';
 import { images, data } from '../../constants';
 import './Awards.css';
 
-const AwardsCard = ({ award: { imgUrl, title, subtitle } }) => {
-  console.log(data.awards, 'data.awards');
-  console.log(imgUrl, 'imgUrl');
+const AwardsCard = ({ award: { imgUrl, title } }) => {
+  const { t } = useTranslation();
 
   return (
     <div className='awards-card'>
@@ -19,10 +18,12 @@ const AwardsCard = ({ award: { imgUrl, title, subtitle } }) => {
           className='p__cormorant'
           style={{ color: '#DCCA87' }}
         >
-          {title}
+          {t(`awards.${title}.title`, { defaultValue: title })}
         </p>
-        <p>{imgUrl}</p>
-        <p className='p__cormorant'>{subtitle}</p>
+        <p className='p__cormorant'>
+          {' '}
+          {t(`awards.${title}.subtitle`, { defaultValue: title })}
+        </p>
       </div>
     </div>
   );
@@ -37,16 +38,13 @@ AwardsCard.propTypes = {
 
 const Awards = () => {
   const { t } = useTranslation();
-  const awards = t('awards', { returnObjects: true });
-  console.log(awards, 'awards');
-
   return (
     <section className='app__bg app__wrapper section__padding matesword__margin-top'>
       <div className='app__wrapper_info'>
         <SubHeading title={t('awardsTitle.subhead')} />
         <h1 className='h1__cormorant'>{t('awardsTitle.title')}</h1>
         <div className='awards-info'>
-          {awards.map((award) => (
+          {data.awards.map((award) => (
             <AwardsCard
               key={award.title}
               award={award}
