@@ -37,7 +37,7 @@ function Newsletter() {
           </button>
         </h1>
       ) : (
-        <iframe
+       /*  <iframe
           className='newsletter_benchmark'
           src='https://lb.benchmarkemail.com//listbuilder/signupnew?IkfHTmyPVq8vGA%252FOf5cjs%252F5pwVnAjsSISdLS9sTDAo7tO5iNRn8gS049TyW7spdJ'
           title='Benchmark Email Subscribe Form'
@@ -45,7 +45,8 @@ function Newsletter() {
           height='500px'
           style={{ background: 'none', width: '100%', maxWidth: '500px' }}
           frameBorder='0'
-        ></iframe>
+        ></iframe> */
+        <h1></h1>
       )}
       <div className='newsletter-loading'>
         <h1 className='h1__cormorant'>Loading...</h1>
