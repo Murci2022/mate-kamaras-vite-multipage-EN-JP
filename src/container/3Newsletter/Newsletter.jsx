@@ -17,7 +17,7 @@ function Newsletter() {
       {i18n.language === 'jp' ? (
         /* <iframe
           className='newsletter_benchmark '
-          src='https://lb.benchmarkemail.com//listbuilder/signupnew?IkfHTmyPVq8ExA%252BokvlMGf5pwVnAjsSIUE7VbfaZsOztO5iNRn8gS8X4lBTFzgEtozrTjFZYUg4%253D'
+          src='https://lb.benchmarkemail.com//listbuilder/signupnew?IkfHTmyPVq8ExA%252BokvlMGf5pwVnAjsSIUE7VbfaZsOztO5iNRn8gS049TyW7spdJ'
           title='Benchmark Email Subscribe Form'
           // Adjust the height as needed
           width='500px'
