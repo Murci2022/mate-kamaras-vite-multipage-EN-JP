@@ -163,7 +163,7 @@ const Navbar = () => {
               </li>
               <li className='p__cormorant-gold'>
                 <a
-                  href='https://www.matekamaras.com/'
+                  href='https://painting-vite-mate-kamaras.vercel.app/'
                   onClick={handleLinkClick}
                 >
                   {t('nav.paintings')}
