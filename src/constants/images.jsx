@@ -34,8 +34,10 @@ import ko from '../assets/ko.png';
 import zh from '../assets/zh.png';
 import hu from '../assets/hu.png';
 import nextconcert from '../assets/nextconcert.png';
+import next_concert14122024 from '../assets/mate_christmas2024.png'
 
 export default {
+  next_concert14122024,
   nextconcert,
   en,
   jp,

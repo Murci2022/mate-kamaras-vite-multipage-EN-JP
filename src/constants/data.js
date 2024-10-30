@@ -2,6 +2,21 @@ import images from './images';
 /* 
 const works = [
   {
+    production: 'Christmas Salon Concert',
+    when: '2024',
+    where: 'Japan || Tokyo',
+  },
+  {
+    production: 'Hungarian Festival',
+    when: '2024',
+    where: 'Japan || Tokyo',
+  },
+  {
+    production: 'La Traviata',
+    when: '2024',
+    where: 'Japan || Tokyo',
+  },
+  {
     production: 'Juristenball Wien',
     when: '2024',
     where: 'Austria || Vienna',
@@ -206,9 +221,22 @@ const works = [
 
 const works = [
   {
+    title: 'ChristmasSalonConcert',
+    when: '2024',
+  },
+  {
+    title: 'HungarianFestival',
+    when: '2024',
+  },
+  {
+    title: 'LaTraviata',
+    when: '2024',
+  },
+  {
     title: 'JuristenballWien',
     when: '2024',
   },
+  
   {
     title: 'ShizukiAsatoDinnerShow',
     when: '2023',

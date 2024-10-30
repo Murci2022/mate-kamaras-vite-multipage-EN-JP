@@ -63,6 +63,18 @@
   },
 
   "about": {
+    "ChristmasSalonConcert": {
+      "production": "Christmas Salon Concert",
+      "where": "Japan || Tokyo"
+    },
+    "HungarianFestival": {
+      "production": "Hungarian Festival",
+      "where": "Japan || Tokyo"
+    },
+    "LaTraviata": {
+      "production": "La Traviata",
+      "where": "Japán || Tokyo"
+    },
     "JuristenballWien": {
       "production": "Juristenball Wien",
       "where": "Austria || Vienna"
