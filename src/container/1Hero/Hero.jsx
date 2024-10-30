@@ -35,7 +35,7 @@ const Header = () => {
           </div>
           <div className='hero__pop-up-conti_img'>
             <img
-              src={images.nextconcert}
+              src={images.next_concert14122024}
               alt='img of poster'
             />
           </div>
@@ -45,7 +45,7 @@ const Header = () => {
             className='custom__button hero__pop-up_btn'
             onClick={console.log('click')}
           >
-            <a href='http://www.tatsumimarie.jp/event-form-20240921/index.php?name=%E8%BE%B0%E5%B7%B3%E7%9C%9F%E7%90%86%E6%81%B5%E3%82%BD%E3%83%97%E3%83%A9%E3%83%8E%E3%83%AA%E3%82%B5%E3%82%A4%E3%82%BF%E3%83%ABVol.6'>
+            <a href='https://www.ticketpay.jp/search/?keyword=%E3%83%9E%E3%83%86%E3%83%BB%E3%82%AB%E3%83%9E%E3%83%A9%E3%82%B9%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%B5%E3%83%AD%E3%83%B3%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%882024'>
               {t('hero.pop-up-button-msg')}
             </a>
           </button>

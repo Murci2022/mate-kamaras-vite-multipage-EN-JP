@@ -63,6 +63,18 @@
     "contact": "management@matekamaras.com"
   },
   "about": {
+    "ChristmasSalonConcert": {
+      "production": "Christmas Salon Concert",
+      "where": "日本 || 東京"
+    },
+    "HungarianFestival": {
+      "production": "Hungarian Festival",
+      "where": "日本 || 東京"
+    },
+    "LaTraviata": {
+      "production": "La Traviata",
+      "where": "日本 || 東京"
+    },
     "JuristenballWien": {
       "production": "Juristenball Wien",
       "where": "オーストリア || ウィーン"
